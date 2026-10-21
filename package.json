@@ -1,0 +1,17 @@
+{
+  "name": "caphalopodo",
+  "version": "2.0.0",
+  "description": "Caphalopodo — Rust + Tauri v2 Standalone Reconstruction & Evolution of Delaire Evolution with 17 Cephalometric Analyses, DICOM, and Multi-Provider AI (ChatGPT, Claude, Gemini)",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "test": "node tests/verify_cephalometrics.mjs",
+    "package:portable": "node scripts/package-portable.mjs",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  }
+}
