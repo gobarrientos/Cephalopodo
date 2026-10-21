@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Caphalopodo",
+  "version": "2.0.0",
+  "identifier": "org.caphalopodo.delaire.evolution",
+  "build": {
+    "frontendDist": "../src",
+    "devUrl": "http://localhost:4173",
+    "beforeDevCommand": "node server.mjs",
+    "beforeBuildCommand": ""
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "Caphalopodo — Delaire Evolution NextGen (Rust Standalone)",
+        "width": 1600,
+        "height": 960,
+        "minWidth": 1180,
+        "minHeight": 720,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

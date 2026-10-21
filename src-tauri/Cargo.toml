@@ -1,0 +1,39 @@
+[package]
+name = "caphalopodo"
+version = "2.0.0"
+description = "Caphalopodo — Modern Rust Standalone Reconstruction & Evolution of Delaire Evolution with 17 Cephalometric Analyses, DICOM, and Multi-Provider AI (ChatGPT, Claude, Gemini)"
+authors = ["Caphalopodo Medical Imaging Team"]
+license = "MIT"
+edition = "2021"
+rust-version = "1.77"
+
+[lib]
+name = "caphalopodo_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[[bin]]
+name = "caphalopodo"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2.0.0", features = [] }
+
+[dependencies]
+tauri = { version = "2.1.0", features = [] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+thiserror = "2.0"
+base64 = "0.22"
+image = { version = "0.25", default-features = false, features = ["jpeg", "png", "bmp"] }
+dicom-object = "0.7"
+dicom-pixeldata = "0.7"
+dicom-dictionary-std = "0.7"
+quick-xml = { version = "0.37", features = ["serialize"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+tokio = { version = "1.40", features = ["full"] }
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
+onnx-ai = []

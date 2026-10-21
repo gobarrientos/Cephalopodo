@@ -1,0 +1,3042 @@
+<Delaire.CreateModel.FrmCreateModel UID="0" Type="Delaire_BO.ModeleAnalyse.ModeleAnalyse,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+  <AllElements>
+    <Delaire_BO.ModeleAnalyse.PointSaisie UID="1" Type="Delaire_BO.ModeleAnalyse.PointSaisie,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <SaisieOptionel>False</SaisieOptionel>
+      <HelpFile />
+      <HelpObjets />
+      <UniversalName />
+      <PointIsOnThePlan IsNull="True" />
+      <PointIsOnTheCircle IsNull="True" />
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>N</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointSaisie>
+    <Delaire_BO.ModeleAnalyse.PointSaisie UID="2" Type="Delaire_BO.ModeleAnalyse.PointSaisie,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <SaisieOptionel>False</SaisieOptionel>
+      <HelpFile />
+      <HelpObjets />
+      <UniversalName />
+      <PointIsOnThePlan IsNull="True" />
+      <PointIsOnTheCircle IsNull="True" />
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>M</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointSaisie>
+    <Delaire_BO.ModeleAnalyse.PointSaisie UID="3" Type="Delaire_BO.ModeleAnalyse.PointSaisie,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <SaisieOptionel>False</SaisieOptionel>
+      <HelpFile />
+      <HelpObjets />
+      <UniversalName />
+      <PointIsOnThePlan IsNull="True" />
+      <PointIsOnTheCircle IsNull="True" />
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Cla</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointSaisie>
+    <Delaire_BO.ModeleAnalyse.PointSaisie UID="4" Type="Delaire_BO.ModeleAnalyse.PointSaisie,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <SaisieOptionel>False</SaisieOptionel>
+      <HelpFile />
+      <HelpObjets>
+        <Delaire_BO.ModeleAnalyse.Segment UID="5" Type="Delaire_BO.ModeleAnalyse.Segment,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <ExportLibelle />
+          <Exportable>False</Exportable>
+          <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+          <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+          <DiagShownNextTo IsNull="True" />
+          <format>0.00 mm</format>
+          <DiagSiNormal />
+          <DiagSiMax />
+          <DiagSiMin />
+          <Maximal>5000</Maximal>
+          <Minimal>-5000</Minimal>
+          <PointArrive Reference="2" />
+          <PointDebut Reference="4" />
+          <Style UID="6" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+            <SerializableBackColor>Lime</SerializableBackColor>
+            <SerializableForeColor>Lime</SerializableForeColor>
+            <SerializableForeColor2>Lime</SerializableForeColor2>
+            <Width>2</Width>
+            <OutlineWidth>2</OutlineWidth>
+          </Style>
+          <VisibleOnFacial>False</VisibleOnFacial>
+          <VisibleOnAxial>False</VisibleOnAxial>
+          <VisibleOnProfil>True</VisibleOnProfil>
+          <VisibleOnAxial_S>False</VisibleOnAxial_S>
+          <VisibleOnFacial_P>False</VisibleOnFacial_P>
+          <VisibleOnProfil_L>False</VisibleOnProfil_L>
+          <Name>Help_Clp</Name>
+          <LongName />
+        </Delaire_BO.ModeleAnalyse.Segment>
+      </HelpObjets>
+      <UniversalName />
+      <PointIsOnThePlan UID="7" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <point1 Reference="2" />
+        <point2 Reference="3" />
+        <borderlimit>Unknown</borderlimit>
+        <Limit1 Reference="2" />
+        <Limit2 UID="8" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <point1 Reference="4" />
+          <point2 UID="9" Type="Delaire_BO.ModeleAnalyse.PointSaisie,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+            <SaisieOptionel>False</SaisieOptionel>
+            <HelpFile />
+            <HelpObjets>
+              <Delaire_BO.ModeleAnalyse.SegmentParalleleMesure UID="10" Type="Delaire_BO.ModeleAnalyse.SegmentParalleleMesure,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+                <ExportLibelle />
+                <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+                <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+                <DiagShownNextTo IsNull="True" />
+                <format>0.00 mm</format>
+                <DiagSiNormal />
+                <DiagSiMax />
+                <DiagSiMin />
+                <Maximal>5000</Maximal>
+                <Minimal>-5000</Minimal>
+                <Mesure>200</Mesure>
+                <Pourcentage>50</Pourcentage>
+                <Origine Reference="7" />
+                <Point Reference="9" />
+                <Exportable>False</Exportable>
+                <Style UID="11" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+                  <SerializableBackColor>Lime</SerializableBackColor>
+                  <SerializableForeColor>Lime</SerializableForeColor>
+                  <SerializableForeColor2>Lime</SerializableForeColor2>
+                  <Width>2</Width>
+                  <OutlineWidth>2</OutlineWidth>
+                </Style>
+                <VisibleOnFacial>False</VisibleOnFacial>
+                <VisibleOnAxial>False</VisibleOnAxial>
+                <VisibleOnProfil>True</VisibleOnProfil>
+                <VisibleOnAxial_S>False</VisibleOnAxial_S>
+                <VisibleOnFacial_P>False</VisibleOnFacial_P>
+                <VisibleOnProfil_L>False</VisibleOnProfil_L>
+                <Name>Help_Od</Name>
+                <LongName />
+              </Delaire_BO.ModeleAnalyse.SegmentParalleleMesure>
+              <Delaire_BO.ModeleAnalyse.Segment UID="12" Type="Delaire_BO.ModeleAnalyse.Segment,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+                <ExportLibelle />
+                <Exportable>False</Exportable>
+                <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+                <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+                <DiagShownNextTo IsNull="True" />
+                <format>0.00 mm</format>
+                <DiagSiNormal />
+                <DiagSiMax />
+                <DiagSiMin />
+                <Maximal>5000</Maximal>
+                <Minimal>-5000</Minimal>
+                <PointArrive Reference="4" />
+                <PointDebut Reference="9" />
+                <Style UID="13" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+                  <SerializableBackColor>Lime</SerializableBackColor>
+                  <SerializableForeColor>Lime</SerializableForeColor>
+                  <SerializableForeColor2>Lime</SerializableForeColor2>
+                  <Width>2</Width>
+                  <OutlineWidth>2</OutlineWidth>
+                </Style>
+                <VisibleOnFacial>False</VisibleOnFacial>
+                <VisibleOnAxial>False</VisibleOnAxial>
+                <VisibleOnProfil>True</VisibleOnProfil>
+                <VisibleOnAxial_S>False</VisibleOnAxial_S>
+                <VisibleOnFacial_P>False</VisibleOnFacial_P>
+                <VisibleOnProfil_L>False</VisibleOnProfil_L>
+                <Name>Help_OdClp</Name>
+                <LongName />
+              </Delaire_BO.ModeleAnalyse.Segment>
+            </HelpObjets>
+            <UniversalName />
+            <PointIsOnThePlan IsNull="True" />
+            <PointIsOnTheCircle IsNull="True" />
+            <PointIsInCurve IsNull="True" />
+            <Style IsNull="True" />
+            <VisibleOnFacial>False</VisibleOnFacial>
+            <VisibleOnAxial>False</VisibleOnAxial>
+            <VisibleOnProfil>True</VisibleOnProfil>
+            <VisibleOnAxial_S>False</VisibleOnAxial_S>
+            <VisibleOnFacial_P>False</VisibleOnFacial_P>
+            <VisibleOnProfil_L>False</VisibleOnProfil_L>
+            <Name>Od</Name>
+            <LongName />
+          </point2>
+          <borderlimit>Unknown</borderlimit>
+          <Limit1 Reference="4" />
+          <Limit2 Reference="9" />
+          <Style UID="14" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+            <SerializableBackColor>White</SerializableBackColor>
+            <SerializableForeColor>Black</SerializableForeColor>
+            <SerializableForeColor2>White</SerializableForeColor2>
+            <Width>2</Width>
+            <OutlineWidth>2</OutlineWidth>
+          </Style>
+          <VisibleOnFacial>False</VisibleOnFacial>
+          <VisibleOnAxial>False</VisibleOnAxial>
+          <VisibleOnProfil>True</VisibleOnProfil>
+          <VisibleOnAxial_S>False</VisibleOnAxial_S>
+          <VisibleOnFacial_P>False</VisibleOnFacial_P>
+          <VisibleOnProfil_L>False</VisibleOnProfil_L>
+          <Name>C4</Name>
+          <LongName />
+        </Limit2>
+        <Style UID="15" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <SerializableBackColor>White</SerializableBackColor>
+          <SerializableForeColor>Black</SerializableForeColor>
+          <SerializableForeColor2>White</SerializableForeColor2>
+          <Width>2</Width>
+          <OutlineWidth>2</OutlineWidth>
+        </Style>
+        <VisibleOnFacial>False</VisibleOnFacial>
+        <VisibleOnAxial>False</VisibleOnAxial>
+        <VisibleOnProfil>True</VisibleOnProfil>
+        <VisibleOnAxial_S>False</VisibleOnAxial_S>
+        <VisibleOnFacial_P>False</VisibleOnFacial_P>
+        <VisibleOnProfil_L>False</VisibleOnProfil_L>
+        <Name>C1</Name>
+        <LongName />
+      </PointIsOnThePlan>
+      <PointIsOnTheCircle IsNull="True" />
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Clp</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointSaisie>
+    <Delaire_BO.ModeleAnalyse.PointSaisie UID="16" Type="Delaire_BO.ModeleAnalyse.PointSaisie,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <SaisieOptionel>False</SaisieOptionel>
+      <HelpFile />
+      <HelpObjets />
+      <UniversalName />
+      <PointIsOnThePlan Reference="7" />
+      <PointIsOnTheCircle IsNull="True" />
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Mp</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointSaisie>
+    <Delaire_BO.ModeleAnalyse.PointSaisie UID="17" Type="Delaire_BO.ModeleAnalyse.PointSaisie,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <SaisieOptionel>False</SaisieOptionel>
+      <HelpFile />
+      <HelpObjets />
+      <UniversalName />
+      <PointIsOnThePlan IsNull="True" />
+      <PointIsOnTheCircle IsNull="True" />
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Ara</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointSaisie>
+    <Delaire_BO.ModeleAnalyse.PointSaisie Reference="9" />
+    <Delaire_BO.ModeleAnalyse.PointSaisie UID="18" Type="Delaire_BO.ModeleAnalyse.PointSaisie,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <SaisieOptionel>False</SaisieOptionel>
+      <HelpFile />
+      <HelpObjets />
+      <UniversalName />
+      <PointIsOnThePlan IsNull="True" />
+      <PointIsOnTheCircle IsNull="True" />
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Pti</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointSaisie>
+    <Delaire_BO.ModeleAnalyse.PointSaisie UID="19" Type="Delaire_BO.ModeleAnalyse.PointSaisie,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <SaisieOptionel>False</SaisieOptionel>
+      <HelpFile />
+      <HelpObjets>
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts UID="20" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <point1 Reference="18" />
+          <point2 Reference="19" />
+          <borderlimit>Top</borderlimit>
+          <Limit1 IsNull="True" />
+          <Limit2 Reference="18" />
+          <Style UID="21" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+            <SerializableBackColor>Lime</SerializableBackColor>
+            <SerializableForeColor>Lime</SerializableForeColor>
+            <SerializableForeColor2>Lime</SerializableForeColor2>
+            <Width>2</Width>
+            <OutlineWidth>2</OutlineWidth>
+          </Style>
+          <VisibleOnFacial>False</VisibleOnFacial>
+          <VisibleOnAxial>False</VisibleOnAxial>
+          <VisibleOnProfil>True</VisibleOnProfil>
+          <VisibleOnAxial_S>False</VisibleOnAxial_S>
+          <VisibleOnFacial_P>False</VisibleOnFacial_P>
+          <VisibleOnProfil_L>False</VisibleOnProfil_L>
+          <Name>Help_Pts</Name>
+          <LongName />
+        </Delaire_BO.ModeleAnalyse.PlanPar2Pts>
+      </HelpObjets>
+      <UniversalName />
+      <PointIsOnThePlan UID="22" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <point1 Reference="2" />
+        <point2 Reference="17" />
+        <borderlimit>Unknown</borderlimit>
+        <Limit1 Reference="2" />
+        <Limit2 Reference="8" />
+        <Style UID="23" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <SerializableBackColor>White</SerializableBackColor>
+          <SerializableForeColor>Black</SerializableForeColor>
+          <SerializableForeColor2>White</SerializableForeColor2>
+          <Width>2</Width>
+          <OutlineWidth>2</OutlineWidth>
+        </Style>
+        <VisibleOnFacial>False</VisibleOnFacial>
+        <VisibleOnAxial>False</VisibleOnAxial>
+        <VisibleOnProfil>True</VisibleOnProfil>
+        <VisibleOnAxial_S>False</VisibleOnAxial_S>
+        <VisibleOnFacial_P>False</VisibleOnFacial_P>
+        <VisibleOnProfil_L>False</VisibleOnProfil_L>
+        <Name>C2</Name>
+        <LongName />
+      </PointIsOnThePlan>
+      <PointIsOnTheCircle IsNull="True" />
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Pts</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointSaisie>
+    <Delaire_BO.ModeleAnalyse.PointSaisie UID="24" Type="Delaire_BO.ModeleAnalyse.PointSaisie,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <SaisieOptionel>False</SaisieOptionel>
+      <HelpFile />
+      <HelpObjets>
+        <Delaire_BO.ModeleAnalyse.SegmentParallele UID="25" Type="Delaire_BO.ModeleAnalyse.SegmentParallele,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <ExportLibelle />
+          <Exportable>False</Exportable>
+          <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+          <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+          <DiagShownNextTo IsNull="True" />
+          <format>0.00 mm</format>
+          <DiagSiNormal />
+          <DiagSiMax />
+          <DiagSiMin />
+          <Maximal>5000</Maximal>
+          <Minimal>-5000</Minimal>
+          <Pourcentage>50</Pourcentage>
+          <SegmentOrigine UID="26" Type="Delaire_BO.ModeleAnalyse.Segment,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+            <ExportLibelle />
+            <Exportable>False</Exportable>
+            <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+            <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+            <DiagShownNextTo IsNull="True" />
+            <format>0.00 mm</format>
+            <DiagSiNormal />
+            <DiagSiMax />
+            <DiagSiMin />
+            <Maximal>5000</Maximal>
+            <Minimal>-5000</Minimal>
+            <PointArrive Reference="19" />
+            <PointDebut Reference="18" />
+            <Style IsNull="True" />
+            <VisibleOnFacial>False</VisibleOnFacial>
+            <VisibleOnAxial>False</VisibleOnAxial>
+            <VisibleOnProfil>True</VisibleOnProfil>
+            <VisibleOnAxial_S>False</VisibleOnAxial_S>
+            <VisibleOnFacial_P>False</VisibleOnFacial_P>
+            <VisibleOnProfil_L>False</VisibleOnProfil_L>
+            <Name>PtiPts</Name>
+            <LongName />
+          </SegmentOrigine>
+          <Point Reference="24" />
+          <Style UID="27" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+            <SerializableBackColor>Lime</SerializableBackColor>
+            <SerializableForeColor>Lime</SerializableForeColor>
+            <SerializableForeColor2>Lime</SerializableForeColor2>
+            <Width>2</Width>
+            <OutlineWidth>2</OutlineWidth>
+          </Style>
+          <VisibleOnFacial>False</VisibleOnFacial>
+          <VisibleOnAxial>False</VisibleOnAxial>
+          <VisibleOnProfil>True</VisibleOnProfil>
+          <VisibleOnAxial_S>False</VisibleOnAxial_S>
+          <VisibleOnFacial_P>False</VisibleOnFacial_P>
+          <VisibleOnProfil_L>False</VisibleOnProfil_L>
+          <Name>Help_Atl</Name>
+          <LongName />
+        </Delaire_BO.ModeleAnalyse.SegmentParallele>
+      </HelpObjets>
+      <UniversalName />
+      <PointIsOnThePlan IsNull="True" />
+      <PointIsOnTheCircle IsNull="True" />
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Atl</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointSaisie>
+    <Delaire_BO.ModeleAnalyse.PointSaisie UID="28" Type="Delaire_BO.ModeleAnalyse.PointSaisie,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <SaisieOptionel>False</SaisieOptionel>
+      <HelpFile />
+      <HelpObjets />
+      <UniversalName />
+      <PointIsOnThePlan IsNull="True" />
+      <PointIsOnTheCircle IsNull="True" />
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>ENA</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointSaisie>
+    <Delaire_BO.ModeleAnalyse.PointSaisie UID="29" Type="Delaire_BO.ModeleAnalyse.PointSaisie,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <SaisieOptionel>False</SaisieOptionel>
+      <HelpFile />
+      <HelpObjets />
+      <UniversalName />
+      <PointIsOnThePlan IsNull="True" />
+      <PointIsOnTheCircle IsNull="True" />
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Go</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointSaisie>
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="7" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="22" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="8" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="30" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>PointF returnedPoint; 
+
+float angle = 90;
+
+
+if (patient.Sexe==Delaire_BO.Patient.SexeEnum.M)
+{
+	if (patient.AgeAnnee&lt;13) angle = 85;
+	if (patient.AgeAnnee==13) angle = 86;
+	if (patient.AgeAnnee==14) angle = 87;
+	if (patient.AgeAnnee==15) angle = 88;
+	if (patient.AgeAnnee==16) angle = 89;
+	if (patient.AgeAnnee&gt;16) angle = 90;
+
+}
+if (patient.Sexe==Delaire_BO.Patient.SexeEnum.F) angle = 85;
+
+
+float correction = 0;
+
+	//Angle Anterieur Base du crane (C1/C2)   
+	float C1C2 = Delaire2010Fonctions.ValeurDe("C1/C2 (anterior angle of the base of the skull)");
+	Delaire2010Fonctions.Console("C1C2 = "+C1C2.ToString()+"°");
+
+	if ((C1C2&gt;22) &amp;&amp; (C1C2&lt;180))  correction = correction+(0.5f*((int)C1C2-22));                  
+	if ((C1C2&lt;20) &amp;&amp; (C1C2&gt;0))  correction = correction-(0.5f*(20-(int)C1C2));                
+
+
+	//Angle (C1/C4)   
+	float C1C4 = Delaire2010Fonctions.ValeurDe("C1/C4 (posterior angle of the base of the skull)",117f);
+	Delaire2010Fonctions.Console("C1C4 = "+C1C4.ToString()+"°");
+	if ((C1C4&gt;120) &amp;&amp; (C1C4&lt;180))  correction = correction-(0.25f*((int)C1C4-120));                  
+	if ((C1C4&lt;115) &amp;&amp; (C1C4&gt;0))  correction = correction+(0.25f*(115-(int)C1C4));       
+
+	
+
+returnedPoint = Delaire2010Fonctions.AngleAvec("FM", "Mp",angle+correction); 
+return returnedPoint;</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>PtPourF1</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="31" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>PointF returnedPoint = Delaire2010Fonctions.IdentiqueA("Atl");
+
+return returnedPoint;</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>PtPourF3</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="32" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>PointF returnedPoint;
+
+
+returnedPoint = Delaire2010Fonctions.IdentiqueA("Pti");
+
+if (option!=null)
+{
+      if (option["F4 passing through"] == "Np Calculé")
+		returnedPoint = Delaire2010Fonctions.IdentiqueA("Np Calcule");
+      if (option["F4 passing through"] == "Pti")
+		returnedPoint = Delaire2010Fonctions.IdentiqueA("Pti");
+      if (option["F4 passing through"] == "Np Construit")
+		returnedPoint = Delaire2010Fonctions.IdentiqueA("NPSurF1M");
+      if (option["F4 passing through"] == "ENA")
+		returnedPoint = Delaire2010Fonctions.IdentiqueA("ENA");
+     if (option["F4 passing through"] == "Od")
+		returnedPoint = Delaire2010Fonctions.IdentiqueA("Od");
+      if (option["F4 passing through"] == "Np Construit/Od")
+		returnedPoint = Delaire2010Fonctions.CentreDe("Od","NPSurF1M");
+     if (option["F4 passing through"] == "Od/Go")
+		returnedPoint = Delaire2010Fonctions.CentreDe("Od","refGo");
+      if (option["F4 passing through"] == "Go")
+		returnedPoint = Delaire2010Fonctions.IdentiqueA("refGo");
+     if (option["F4 passing through"] == "Point Option")
+		returnedPoint = Delaire2010Fonctions.IdentiqueA("Point Option");
+	 if (option["F4 passing through"] == "Pti/Od")
+		returnedPoint = Delaire2010Fonctions.CentreDe("Od","Pti");
+	if (option["F4 passing through"] == "Go/ENA")
+		returnedPoint = Delaire2010Fonctions.CentreDe("refGo","ENA");
+	if (option["F4 passing through"] == "ENA/Od")
+		returnedPoint = Delaire2010Fonctions.CentreDe("Od","ENA");
+if (option["F4 passing through"] == "Pt Option")
+		returnedPoint = Delaire2010Fonctions.IdentiqueA("Pt opt");
+if (option["F4 passing through"] == "Pti/ENA")
+		returnedPoint = Delaire2010Fonctions.CentreDe("Pti","ENA");
+
+     
+}
+
+Delaire2010Fonctions.Console("F4 passe par "+option["F4 passing through"]);
+
+return returnedPoint;</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>PtPourF4</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="33" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>return Delaire2010Fonctions.CentreDe("M","Mp");</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>FM</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts UID="34" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point1 Reference="30" />
+      <point2 Reference="33" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 UID="35" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <RecalculateScript>PointF returnedPoint;
+returnedPoint = Delaire2010Fonctions.Parcourir("F1","FM",15);
+return returnedPoint;</RecalculateScript>
+        <PointIsInCurve IsNull="True" />
+        <Style IsNull="True" />
+        <VisibleOnFacial>False</VisibleOnFacial>
+        <VisibleOnAxial>False</VisibleOnAxial>
+        <VisibleOnProfil>True</VisibleOnProfil>
+        <VisibleOnAxial_S>False</VisibleOnAxial_S>
+        <VisibleOnFacial_P>False</VisibleOnFacial_P>
+        <VisibleOnProfil_L>False</VisibleOnProfil_L>
+        <Name>FM10mm</Name>
+        <LongName />
+      </Limit1>
+      <Limit2 UID="36" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <RecalculateScript>PointF ProjNSurF5 = Delaire2010Fonctions.Projection("F5","N");
+
+float DistNENAt = Delaire2010Fonctions.DistanceEnPxl(ProjNSurF5,"ENA_Theo");
+
+float ratio = 2.22f;
+
+/*
+if  (patient.PopulationReference == Delaire_BO.Patient.PopRefEnum.CentreAfricaine)
+    ratio = 2.26f;
+else
+   if  (patient.PopulationReference == Delaire_BO.Patient.PopRefEnum.NordAfricaine)
+       ratio = 2.43f;
+   else
+       ratio = 2.22f;
+*/
+
+if (option["proportions"] == "45:55%") ratio = 2.22f;
+if (option["proportions"] == "43:57%") ratio = 2.26f;
+if (option["proportions"] == "41:59%") ratio = 2.43f;
+
+
+// 45/55 -&gt; 2.22f
+//43/57 --&gt; 2.26f
+//41/59--&gt;2.43f
+
+
+DistNENAt = -DistNENAt * ratio;
+
+
+PointF MeTheoSurF5 = Delaire2010Fonctions.ParcourirEnPxl("F5",ProjNSurF5,DistNENAt,new PointF(0,0));
+
+return Delaire2010Fonctions.Projection("F1",MeTheoSurF5);</RecalculateScript>
+        <PointIsInCurve IsNull="True" />
+        <Style IsNull="True" />
+        <VisibleOnFacial>False</VisibleOnFacial>
+        <VisibleOnAxial>False</VisibleOnAxial>
+        <VisibleOnProfil>True</VisibleOnProfil>
+        <VisibleOnAxial_S>False</VisibleOnAxial_S>
+        <VisibleOnFacial_P>False</VisibleOnFacial_P>
+        <VisibleOnProfil_L>False</VisibleOnProfil_L>
+        <Name>Me_Theo</Name>
+        <LongName />
+      </Limit2>
+      <Style UID="37" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>Black</SerializableForeColor2>
+        <Width>1,7</Width>
+        <OutlineWidth>3,5</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>F1</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanPar2Pts>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="35" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="36" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="38" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>
+/*PointF returnedPoint;
+returnedPoint = Delaire2010Fonctions.IntersectionDePlan("F4","F5_tmp");
+return returnedPoint;
+*/
+
+PointF ProjNPrimSurC1 = Delaire2010Fonctions.Projection("C1","N");
+float DistFMNPrim = Delaire2010Fonctions.DistanceEnPxl("FM",ProjNPrimSurC1);
+
+PointF ProjFMSurF4 = Delaire2010Fonctions.Projection("F4","FM");
+float DistFMF4 = Delaire2010Fonctions.DistanceEnPxl(ProjFMSurF4,"FM");
+
+float x = DistFMF4*0.087f;
+
+return Delaire2010Fonctions.ParcourirEnPxl("F4","NP_Theo",DistFMNPrim+x,new PointF(5000,5000));
+
+</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>ENA_Theo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PlanPerpendiculaire UID="39" Type="Delaire_BO.ModeleAnalyse.PlanPerpendiculaire,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point UID="40" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <RecalculateScript>if (patient.PopulationReference!=Delaire_BO.Patient.PopRefEnum.BiPro)
+{
+	return Delaire2010Fonctions.Projection("F4","N'");
+}else
+{
+	return Delaire2010Fonctions.IdentiqueA("ENA_Theo");
+}</RecalculateScript>
+        <PointIsInCurve IsNull="True" />
+        <Style IsNull="True" />
+        <VisibleOnFacial>False</VisibleOnFacial>
+        <VisibleOnAxial>False</VisibleOnAxial>
+        <VisibleOnProfil>True</VisibleOnProfil>
+        <VisibleOnAxial_S>False</VisibleOnAxial_S>
+        <VisibleOnFacial_P>False</VisibleOnFacial_P>
+        <VisibleOnProfil_L>False</VisibleOnProfil_L>
+        <Name>PtPourF5</Name>
+        <LongName />
+      </point>
+      <angle>90</angle>
+      <PlanOuSegOrigin Reference="7" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="38" />
+      <Limit2 UID="41" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <point1 UID="42" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <RecalculateScript>PointF returnedPoint;
+returnedPoint = Delaire2010Fonctions.Projection("F5", "Me_Theo");
+return returnedPoint;</RecalculateScript>
+          <PointIsInCurve IsNull="True" />
+          <Style IsNull="True" />
+          <VisibleOnFacial>False</VisibleOnFacial>
+          <VisibleOnAxial>False</VisibleOnAxial>
+          <VisibleOnProfil>True</VisibleOnProfil>
+          <VisibleOnAxial_S>False</VisibleOnAxial_S>
+          <VisibleOnFacial_P>False</VisibleOnFacial_P>
+          <VisibleOnProfil_L>False</VisibleOnProfil_L>
+          <Name>ProjMeSurF5</Name>
+          <LongName />
+        </point1>
+        <point2 Reference="36" />
+        <borderlimit>Unknown</borderlimit>
+        <Limit1 Reference="42" />
+        <Limit2 Reference="36" />
+        <Style UID="43" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <SerializableBackColor>White</SerializableBackColor>
+          <SerializableForeColor>Black</SerializableForeColor>
+          <SerializableForeColor2>White</SerializableForeColor2>
+          <Width>2</Width>
+          <OutlineWidth>2</OutlineWidth>
+        </Style>
+        <VisibleOnFacial>False</VisibleOnFacial>
+        <VisibleOnAxial>False</VisibleOnAxial>
+        <VisibleOnProfil>True</VisibleOnProfil>
+        <VisibleOnAxial_S>False</VisibleOnAxial_S>
+        <VisibleOnFacial_P>False</VisibleOnFacial_P>
+        <VisibleOnProfil_L>False</VisibleOnProfil_L>
+        <Name>F5F7</Name>
+        <LongName />
+      </Limit2>
+      <Style UID="44" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>F5</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanPerpendiculaire>
+    <Delaire_BO.ModeleAnalyse.PlanParallele UID="45" Type="Delaire_BO.ModeleAnalyse.PlanParallele,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point Reference="32" />
+      <PlanOuSegmentOrigin Reference="7" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 UID="46" Type="Delaire_BO.ModeleAnalyse.PlanParallele,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <point Reference="31" />
+        <PlanOuSegmentOrigin UID="47" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <point1 Reference="18" />
+          <point2 Reference="19" />
+          <borderlimit>Unknown</borderlimit>
+          <Limit1 UID="48" Type="Delaire_BO.ModeleAnalyse.PlanParallele,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+            <point UID="49" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+              <RecalculateScript>return Delaire2010Fonctions.IntersectionDePlan("F4","F5Haut");</RecalculateScript>
+              <PointIsInCurve IsNull="True" />
+              <Style IsNull="True" />
+              <VisibleOnFacial>False</VisibleOnFacial>
+              <VisibleOnAxial>False</VisibleOnAxial>
+              <VisibleOnProfil>True</VisibleOnProfil>
+              <VisibleOnAxial_S>False</VisibleOnAxial_S>
+              <VisibleOnFacial_P>False</VisibleOnFacial_P>
+              <VisibleOnProfil_L>False</VisibleOnProfil_L>
+              <Name>F4F5</Name>
+              <LongName />
+            </point>
+            <PlanOuSegmentOrigin Reference="22" />
+            <borderlimit>Unknown</borderlimit>
+            <Limit1 Reference="46" />
+            <Limit2 Reference="49" />
+            <Style UID="50" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+              <SerializableBackColor>White</SerializableBackColor>
+              <SerializableForeColor>Black</SerializableForeColor>
+              <SerializableForeColor2>White</SerializableForeColor2>
+              <Width>2</Width>
+              <OutlineWidth>2</OutlineWidth>
+            </Style>
+            <VisibleOnFacial>False</VisibleOnFacial>
+            <VisibleOnAxial>False</VisibleOnAxial>
+            <VisibleOnProfil>True</VisibleOnProfil>
+            <VisibleOnAxial_S>False</VisibleOnAxial_S>
+            <VisibleOnFacial_P>False</VisibleOnFacial_P>
+            <VisibleOnProfil_L>False</VisibleOnProfil_L>
+            <Name>F6</Name>
+            <LongName />
+          </Limit1>
+          <Limit2 Reference="22" />
+          <Style UID="51" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+            <SerializableBackColor>White</SerializableBackColor>
+            <SerializableForeColor>Black</SerializableForeColor>
+            <SerializableForeColor2>White</SerializableForeColor2>
+            <Width>2</Width>
+            <OutlineWidth>2</OutlineWidth>
+          </Style>
+          <VisibleOnFacial>False</VisibleOnFacial>
+          <VisibleOnAxial>False</VisibleOnAxial>
+          <VisibleOnProfil>True</VisibleOnProfil>
+          <VisibleOnAxial_S>False</VisibleOnAxial_S>
+          <VisibleOnFacial_P>False</VisibleOnFacial_P>
+          <VisibleOnProfil_L>False</VisibleOnProfil_L>
+          <Name>F2</Name>
+          <LongName />
+        </PlanOuSegmentOrigin>
+        <borderlimit>Unknown</borderlimit>
+        <Limit1 UID="52" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <point1 UID="53" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+            <RecalculateScript>return Delaire2010Fonctions.IntersectionDePlan("F3","F6")</RecalculateScript>
+            <PointIsInCurve IsNull="True" />
+            <Style IsNull="True" />
+            <VisibleOnFacial>False</VisibleOnFacial>
+            <VisibleOnAxial>False</VisibleOnAxial>
+            <VisibleOnProfil>True</VisibleOnProfil>
+            <VisibleOnAxial_S>False</VisibleOnAxial_S>
+            <VisibleOnFacial_P>False</VisibleOnFacial_P>
+            <VisibleOnProfil_L>False</VisibleOnProfil_L>
+            <Name>Go_Theo</Name>
+            <LongName />
+          </point1>
+          <point2 Reference="36" />
+          <borderlimit>Unknown</borderlimit>
+          <Limit1 Reference="46" />
+          <Limit2 Reference="34" />
+          <Style UID="54" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+            <SerializableBackColor>White</SerializableBackColor>
+            <SerializableForeColor>Black</SerializableForeColor>
+            <SerializableForeColor2>White</SerializableForeColor2>
+            <Width>2</Width>
+            <OutlineWidth>2</OutlineWidth>
+          </Style>
+          <VisibleOnFacial>False</VisibleOnFacial>
+          <VisibleOnAxial>False</VisibleOnAxial>
+          <VisibleOnProfil>True</VisibleOnProfil>
+          <VisibleOnAxial_S>False</VisibleOnAxial_S>
+          <VisibleOnFacial_P>False</VisibleOnFacial_P>
+          <VisibleOnProfil_L>False</VisibleOnProfil_L>
+          <Name>F7</Name>
+          <LongName />
+        </Limit1>
+        <Limit2 Reference="22" />
+        <Style UID="55" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <SerializableBackColor>White</SerializableBackColor>
+          <SerializableForeColor>Black</SerializableForeColor>
+          <SerializableForeColor2>White</SerializableForeColor2>
+          <Width>2</Width>
+          <OutlineWidth>2</OutlineWidth>
+        </Style>
+        <VisibleOnFacial>False</VisibleOnFacial>
+        <VisibleOnAxial>False</VisibleOnAxial>
+        <VisibleOnProfil>True</VisibleOnProfil>
+        <VisibleOnAxial_S>False</VisibleOnAxial_S>
+        <VisibleOnFacial_P>False</VisibleOnFacial_P>
+        <VisibleOnProfil_L>False</VisibleOnProfil_L>
+        <Name>F3</Name>
+        <LongName />
+      </Limit1>
+      <Limit2 Reference="39" />
+      <Style UID="56" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>F4</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanParallele>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="57" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>return Delaire2010Fonctions.IntersectionDePlan("F1","F4")</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>NP_Theo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="58" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>return Delaire2010Fonctions.IntersectionDePlan("F3","C2")</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Cp_Theo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="49" />
+    <Delaire_BO.ModeleAnalyse.PlanParallele Reference="46" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="59" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>return Delaire2010Fonctions.Projection("F4","N'");</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>ProjNSurF4</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts UID="60" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point1 UID="61" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <RecalculateScript>Droite C1ParN = Delaire2010Fonctions.CreateDroiteParalleleA("C1","N");
+
+float decalage = 1;
+
+if (patient.Sexe==Delaire_BO.Patient.SexeEnum.M)
+{
+  if ((patient.AgeAnnee&gt;6) &amp;&amp; (patient.AgeAnnee&lt;12)) decalage = 2;
+  if (patient.AgeAnnee&gt;12) decalage = 3;
+}
+
+if (patient.Sexe==Delaire_BO.Patient.SexeEnum.F)
+    if (patient.AgeAnnee&gt;6) decalage = 2;
+
+
+
+PointF sameAsPt = new PointF(5000,5000);	
+return Delaire2010Fonctions.Parcourir(C1ParN,"N",decalage,sameAsPt);	</RecalculateScript>
+        <PointIsInCurve IsNull="True" />
+        <Style IsNull="True" />
+        <VisibleOnFacial>False</VisibleOnFacial>
+        <VisibleOnAxial>False</VisibleOnAxial>
+        <VisibleOnProfil>True</VisibleOnProfil>
+        <VisibleOnAxial_S>False</VisibleOnAxial_S>
+        <VisibleOnFacial_P>False</VisibleOnFacial_P>
+        <VisibleOnProfil_L>False</VisibleOnProfil_L>
+        <Name>N'</Name>
+        <LongName />
+      </point1>
+      <point2 Reference="59" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="61" />
+      <Limit2 Reference="59" />
+      <Style UID="62" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>F5Haut</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanPar2Pts>
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="47" />
+    <Delaire_BO.ModeleAnalyse.AngleEntre4Points UID="63" Type="Delaire_BO.ModeleAnalyse.AngleEntre4Points,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <Point1 Reference="9" />
+      <Point2 Reference="4" />
+      <Point3 Reference="4" />
+      <Point4 Reference="2" />
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <format />
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>120</Maximal>
+      <Minimal>115</Minimal>
+      <DiagShownNextTo IsNull="True" />
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>C1/C4 (posterior angle of the base of the skull)</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.AngleEntre4Points>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="64" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>return Delaire2010Fonctions.CentreDe("Cla","Clp")</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Cl</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.AngleEntre4Points UID="65" Type="Delaire_BO.ModeleAnalyse.AngleEntre4Points,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <Point1 Reference="64" />
+      <Point2 Reference="2" />
+      <Point3 Reference="2" />
+      <Point4 Reference="17" />
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <format />
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>22</Maximal>
+      <Minimal>20</Minimal>
+      <DiagShownNextTo IsNull="True" />
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>C1/C2 (anterior angle of the base of the skull)</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.AngleEntre4Points>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="53" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="52" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="42" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="41" />
+    <Delaire_BO.ModeleAnalyse.PlanParallele Reference="48" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="66" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>return Delaire2010Fonctions.IntersectionDePlan("F6","F2");</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Pto_Theo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="67" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>PointF returnedPoint;
+returnedPoint = Delaire2010Fonctions.IntersectionDePlan("F4","F7");
+return returnedPoint;</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Om_Theo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts UID="68" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point1 Reference="67" />
+      <point2 Reference="66" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="46" />
+      <Limit2 Reference="34" />
+      <Style UID="69" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>F8</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanPar2Pts>
+    <Delaire_BO.ModeleAnalyse.PlanParallele UID="70" Type="Delaire_BO.ModeleAnalyse.PlanParallele,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point Reference="29" />
+      <PlanOuSegmentOrigin Reference="22" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 IsNull="True" />
+      <Limit2 IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>PlC2ParGo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanParallele>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="71" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>return Delaire2010Fonctions.IntersectionDePlan("PlC2ParGo","F5_tmp");</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>refGo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PlanPerpendiculaire UID="72" Type="Delaire_BO.ModeleAnalyse.PlanPerpendiculaire,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point Reference="1" />
+      <angle>90</angle>
+      <PlanOuSegOrigin Reference="7" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 IsNull="True" />
+      <Limit2 IsNull="True" />
+      <Style UID="73" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>Lime</SerializableBackColor>
+        <SerializableForeColor>Lime</SerializableForeColor>
+        <SerializableForeColor2>Lime</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>F5_tmp</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanPerpendiculaire>
+    <Delaire_BO.ModeleAnalyse.Segment Reference="5" />
+    <Delaire_BO.ModeleAnalyse.SegmentParalleleMesure Reference="10" />
+    <Delaire_BO.ModeleAnalyse.Segment Reference="12" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="20" />
+    <Delaire_BO.ModeleAnalyse.Segment Reference="26" />
+    <Delaire_BO.ModeleAnalyse.SegmentParallele Reference="25" />
+    <Delaire_BO.ModeleAnalyse.DistanceEntre2Pts UID="74" Type="Delaire_BO.ModeleAnalyse.DistanceEntre2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <Point2 Reference="2" />
+      <Point1 Reference="33" />
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <format />
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <DiagShownNextTo IsNull="True" />
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>DistChoixPourF4</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.DistanceEntre2Pts>
+    <Delaire_BO.ModeleAnalyse.Cercle UID="75" Type="Delaire_BO.ModeleAnalyse.Cercle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <Distance Reference="74" />
+      <PointCentral Reference="28" />
+      <Style UID="76" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>#400040</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>ChoixENA</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Cercle>
+    <Delaire_BO.ModeleAnalyse.Cercle UID="77" Type="Delaire_BO.ModeleAnalyse.Cercle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <Distance Reference="74" />
+      <PointCentral Reference="29" />
+      <Style UID="78" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Yellow</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>ChoixGo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Cercle>
+    <Delaire_BO.ModeleAnalyse.Cercle UID="79" Type="Delaire_BO.ModeleAnalyse.Cercle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <Distance Reference="74" />
+      <PointCentral Reference="9" />
+      <Style UID="80" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Blue</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>ChoixOd</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Cercle>
+    <Delaire_BO.ModeleAnalyse.Cercle UID="81" Type="Delaire_BO.ModeleAnalyse.Cercle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <Distance Reference="74" />
+      <PointCentral Reference="18" />
+      <Style UID="82" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>#FF8000</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>ChoixPti</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Cercle>
+    <Delaire_BO.ModeleAnalyse.Cercle UID="83" Type="Delaire_BO.ModeleAnalyse.Cercle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <Distance Reference="74" />
+      <PointCentral Reference="57" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>ChoixNp</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Cercle>
+    <Delaire_BO.ModeleAnalyse.PlanParallele UID="84" Type="Delaire_BO.ModeleAnalyse.PlanParallele,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point Reference="9" />
+      <PlanOuSegmentOrigin Reference="7" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="9" />
+      <Limit2 Reference="60" />
+      <Style UID="85" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Blue</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>ChoixOd</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanParallele>
+    <Delaire_BO.ModeleAnalyse.PlanParallele UID="86" Type="Delaire_BO.ModeleAnalyse.PlanParallele,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point Reference="18" />
+      <PlanOuSegmentOrigin Reference="7" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="18" />
+      <Limit2 Reference="60" />
+      <Style UID="87" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>#FF8000</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>ChoixPti</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanParallele>
+    <Delaire_BO.ModeleAnalyse.PlanParallele UID="88" Type="Delaire_BO.ModeleAnalyse.PlanParallele,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point Reference="29" />
+      <PlanOuSegmentOrigin Reference="22" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="29" />
+      <Limit2 Reference="39" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>PlC2parGo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanParallele>
+    <Delaire_BO.ModeleAnalyse.PlanParallele UID="89" Type="Delaire_BO.ModeleAnalyse.PlanParallele,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point Reference="71" />
+      <PlanOuSegmentOrigin Reference="7" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="29" />
+      <Limit2 Reference="71" />
+      <Style UID="90" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Yellow</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>choix Go2</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanParallele>
+    <Delaire_BO.ModeleAnalyse.Segment UID="91" Type="Delaire_BO.ModeleAnalyse.Segment,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <DiagShownNextTo IsNull="True" />
+      <format>0.00 mm</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <PointArrive Reference="71" />
+      <PointDebut Reference="29" />
+      <Style UID="92" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Yellow</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>choixGo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Segment>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="93" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>return Delaire2010Fonctions.CentreDe("Clp","Mp");</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>MilieuClpMp</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.DiagnosticByScript UID="94" Type="Delaire_BO.ModeleAnalyse.DiagnosticByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <RecalculateScript>return Delaire2010Fonctions.Angle("Ara","M","M","Cl");</RecalculateScript>
+      <Exportable>False</Exportable>
+      <format>C1/C2:0°</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>22</Maximal>
+      <Minimal>20</Minimal>
+      <DiagShownNextTo Reference="93" />
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <Style UID="95" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>Black</SerializableBackColor>
+        <SerializableForeColor>Yellow</SerializableForeColor>
+        <SerializableForeColor2>Yellow</SerializableForeColor2>
+        <Width>0,2</Width>
+        <OutlineWidth>4,5</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>AngleC1C2</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.DiagnosticByScript>
+    <Delaire_BO.ModeleAnalyse.DiagnosticByScript UID="96" Type="Delaire_BO.ModeleAnalyse.DiagnosticByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <RecalculateScript>return Delaire2010Fonctions.Angle("M","Cl","Clp","Od");</RecalculateScript>
+      <Exportable>False</Exportable>
+      <format>C1/C4:0°</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>120</Maximal>
+      <Minimal>115</Minimal>
+      <DiagShownNextTo Reference="4" />
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <Style UID="97" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>Black</SerializableBackColor>
+        <SerializableForeColor>Yellow</SerializableForeColor>
+        <SerializableForeColor2>Yellow</SerializableForeColor2>
+        <Width>0,2</Width>
+        <OutlineWidth>4,5</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>AngleC1C4</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.DiagnosticByScript>
+    <Delaire_BO.ModeleAnalyse.DiagnosticByScript UID="98" Type="Delaire_BO.ModeleAnalyse.DiagnosticByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <RecalculateScript>return Delaire2010Fonctions.Angle("Me_Theo","FM","FM","Cl");</RecalculateScript>
+      <Exportable>False</Exportable>
+      <format>C1/F1:0°</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <DiagShownNextTo UID="99" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <RecalculateScript>return Delaire2010Fonctions.CentreDe("Pts","M","NP_Theo");</RecalculateScript>
+        <PointIsInCurve IsNull="True" />
+        <Style IsNull="True" />
+        <VisibleOnFacial>False</VisibleOnFacial>
+        <VisibleOnAxial>False</VisibleOnAxial>
+        <VisibleOnProfil>True</VisibleOnProfil>
+        <VisibleOnAxial_S>False</VisibleOnAxial_S>
+        <VisibleOnFacial_P>False</VisibleOnFacial_P>
+        <VisibleOnProfil_L>False</VisibleOnProfil_L>
+        <Name>MilieuPtsMNp</Name>
+        <LongName />
+      </DiagShownNextTo>
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <Style UID="100" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>Black</SerializableForeColor2>
+        <Width>0,2</Width>
+        <OutlineWidth>4,5</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>AngleC1F1</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.DiagnosticByScript>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="101" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>return Delaire2010Fonctions.IdentiqueA("M")</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>C1C2</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="102" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>return Delaire2010Fonctions.IntersectionDePlan("C1","C4");</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>C1C4</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="103" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>return Delaire2010Fonctions.IntersectionDePlan("C2","C4");</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>C2C4</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.Polygon UID="104" Type="Delaire_BO.ModeleAnalyse.Polygon,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <DiagShownNextTo IsNull="True" />
+      <format>0.00 mm²</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <Points>
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="101" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="102" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="103" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="19" />
+      </Points>
+      <Style UID="105" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Yellow</SerializableForeColor>
+        <SerializableForeColor2>Yellow</SerializableForeColor2>
+        <Width>1</Width>
+        <OutlineWidth>3</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Base of the skull</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Polygon>
+    <Delaire_BO.ModeleAnalyse.Path UID="106" Type="Delaire_BO.ModeleAnalyse.Path,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <DiagShownNextTo IsNull="True" />
+      <format>0.00 mm²</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <Points>
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="101" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="102" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="103" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="19" />
+      </Points>
+      <Style UID="107" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>Yellow</SerializableBackColor>
+        <SerializableForeColor>Yellow</SerializableForeColor>
+        <SerializableForeColor2>Yellow</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Base of the skull</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Path>
+    <Delaire_BO.ModeleAnalyse.PlanParallele UID="108" Type="Delaire_BO.ModeleAnalyse.PlanParallele,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point Reference="38" />
+      <PlanOuSegmentOrigin Reference="39" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="38" />
+      <Limit2 Reference="68" />
+      <Style UID="109" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>IncSupTheo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanParallele>
+    <Delaire_BO.ModeleAnalyse.Path UID="110" Type="Delaire_BO.ModeleAnalyse.Path,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <DiagShownNextTo IsNull="True" />
+      <format>0.00 mm²</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <Points>
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="19" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript UID="111" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <RecalculateScript>return Delaire2010Fonctions.IntersectionDePlan("F2","F4");</RecalculateScript>
+          <PointIsInCurve IsNull="True" />
+          <Style IsNull="True" />
+          <VisibleOnFacial>False</VisibleOnFacial>
+          <VisibleOnAxial>False</VisibleOnAxial>
+          <VisibleOnProfil>True</VisibleOnProfil>
+          <VisibleOnAxial_S>False</VisibleOnAxial_S>
+          <VisibleOnFacial_P>False</VisibleOnFacial_P>
+          <VisibleOnProfil_L>False</VisibleOnProfil_L>
+          <Name>Pti_Theo</Name>
+          <LongName />
+        </Delaire_BO.ModeleAnalyse.PointCtByScript>
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="57" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript UID="112" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <RecalculateScript>return Delaire2010Fonctions.IntersectionDePlan("F1","C1")</RecalculateScript>
+          <PointIsInCurve IsNull="True" />
+          <Style IsNull="True" />
+          <VisibleOnFacial>False</VisibleOnFacial>
+          <VisibleOnAxial>False</VisibleOnAxial>
+          <VisibleOnProfil>True</VisibleOnProfil>
+          <VisibleOnAxial_S>False</VisibleOnAxial_S>
+          <VisibleOnFacial_P>False</VisibleOnFacial_P>
+          <VisibleOnProfil_L>False</VisibleOnProfil_L>
+          <Name>PtF1C1</Name>
+          <LongName />
+        </Delaire_BO.ModeleAnalyse.PointCtByScript>
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="16" />
+      </Points>
+      <Style UID="113" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>#FF80FF</SerializableBackColor>
+        <SerializableForeColor>#FF80FF</SerializableForeColor>
+        <SerializableForeColor2>#FF80FF</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Maxillaire Theo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Path>
+    <Delaire_BO.ModeleAnalyse.Polygon UID="114" Type="Delaire_BO.ModeleAnalyse.Polygon,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <DiagShownNextTo IsNull="True" />
+      <format>0.00 mm²</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <Points>
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="19" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="111" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="57" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="112" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="101" />
+      </Points>
+      <Style UID="115" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Red</SerializableForeColor>
+        <SerializableForeColor2>Red</SerializableForeColor2>
+        <Width>1</Width>
+        <OutlineWidth>3</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Maxillaire Theo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Polygon>
+    <Delaire_BO.ModeleAnalyse.Path UID="116" Type="Delaire_BO.ModeleAnalyse.Path,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <DiagShownNextTo IsNull="True" />
+      <format>0.00 mm²</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <Points>
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="2" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="1" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="40" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="57" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="112" />
+      </Points>
+      <Style UID="117" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>#FF0080</SerializableBackColor>
+        <SerializableForeColor>#FF0080</SerializableForeColor>
+        <SerializableForeColor2>#FF0080</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>PreMaxillaire Theo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Path>
+    <Delaire_BO.ModeleAnalyse.Polygon UID="118" Type="Delaire_BO.ModeleAnalyse.Polygon,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <DiagShownNextTo IsNull="True" />
+      <format>0.00 mm²</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <Points>
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="2" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="1" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="40" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="57" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="112" />
+      </Points>
+      <Style UID="119" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Red</SerializableForeColor>
+        <SerializableForeColor2>Red</SerializableForeColor2>
+        <Width>1</Width>
+        <OutlineWidth>3</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>PreMaxillaire Theo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Polygon>
+    <Delaire_BO.ModeleAnalyse.Path UID="120" Type="Delaire_BO.ModeleAnalyse.Path,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <DiagShownNextTo IsNull="True" />
+      <format>0.00 mm²</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <Points>
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="58" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="19" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="111" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="66" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript UID="121" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <RecalculateScript>return Delaire2010Fonctions.Projection("F7","Pto_Theo")
+
+</RecalculateScript>
+          <PointIsInCurve IsNull="True" />
+          <Style IsNull="True" />
+          <VisibleOnFacial>False</VisibleOnFacial>
+          <VisibleOnAxial>False</VisibleOnAxial>
+          <VisibleOnProfil>True</VisibleOnProfil>
+          <VisibleOnAxial_S>False</VisibleOnAxial_S>
+          <VisibleOnFacial_P>False</VisibleOnFacial_P>
+          <VisibleOnProfil_L>False</VisibleOnProfil_L>
+          <Name>No_Theo</Name>
+          <LongName />
+        </Delaire_BO.ModeleAnalyse.PointCtByScript>
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="53" />
+      </Points>
+      <Style UID="122" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>#004080</SerializableBackColor>
+        <SerializableForeColor>#004080</SerializableForeColor>
+        <SerializableForeColor2>#004080</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Ramus Theo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Path>
+    <Delaire_BO.ModeleAnalyse.Polygon UID="123" Type="Delaire_BO.ModeleAnalyse.Polygon,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <DiagShownNextTo IsNull="True" />
+      <format>0.00 mm²</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <Points>
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="58" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="19" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="111" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="66" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="121" />
+        <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="53" />
+      </Points>
+      <Style UID="124" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Blue</SerializableForeColor>
+        <SerializableForeColor2>Blue</SerializableForeColor2>
+        <Width>1</Width>
+        <OutlineWidth>3</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Ramus Theo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Polygon>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="111" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="125" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript> Droite d = Delaire2010Fonctions.CreateDroitePerpendiculaireA("C1","ENA_Theo");
+
+PointF F5F8 = Delaire2010Fonctions.IntersectionDePlan("F8",d);
+Droite d2 = Delaire2010Fonctions.CreateDroiteParalleleA("F4",F5F8);
+return Delaire2010Fonctions.Parcourir(d2,F5F8,1.5f,new PointF(0,0));
+</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>IDT</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="126" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>Droite d = Delaire2010Fonctions.CreateDroitePerpendiculaireA("C1","ENA_Theo");
+
+
+PointF F5F8 = Delaire2010Fonctions.IntersectionDePlan("F8",d);
+return Delaire2010Fonctions.Parcourir("F8",F5F8,3,new PointF(0,0));
+</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>IDT2</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="121" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="99" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="127" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>float DistNpENA = Delaire2010Fonctions.DistanceEnPxl("NP_Theo","ProjNSurF4");
+
+return  Delaire2010Fonctions.ParcourirEnPxl("F5F7","Me_Theo", (DistNpENA),new PointF(5000,5000));
+</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Pointe_de_Me_Theo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.Segment UID="128" Type="Delaire_BO.ModeleAnalyse.Segment,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <DiagShownNextTo IsNull="True" />
+      <format>0.00 mm</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <PointArrive Reference="127" />
+      <PointDebut Reference="126" />
+      <Style UID="129" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>F5F8MeTheo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Segment>
+    <Delaire_BO.ModeleAnalyse.Forme UID="130" Type="Delaire_BO.ModeleAnalyse.Forme,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <ReadOnly>False</ReadOnly>
+      <ShownAsRegion>True</ShownAsRegion>
+      <FormElements>
+        <Delaire_BO.ModeleAnalyse.FormCourbe UID="131" Type="Delaire_BO.ModeleAnalyse.FormCourbe,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <IsLocked>False</IsLocked>
+          <Libelle>Courbe 3</Libelle>
+          <Closed>False</Closed>
+          <ReadOnly>False</ReadOnly>
+          <SerializedfirstPoints>1871,426;554,6403|1860,681;491,4683|1841,375;446,9754|1826,314;394,8186|1832,092;323,4074|1827,058;257,789|1775,766;235,0483</SerializedfirstPoints>
+          <SerializedsecondPoints>1868,904;530,4303|1854,979;476,7157|1833,474;431,9889|1827,058;372,6364|1836,384;296,3616|1813,441;246,261|1751,708;235,3629</SerializedsecondPoints>
+          <SerializedPoints>1873,947;578,8493|1864,791;510,95|1848,177;461,846|1829,892;413,4041|1829,575;348,0218|1831,721;277,0748|1794,603;240,6548|1727,65;235,6764</SerializedPoints>
+          <RefPoint2Name Reference="36" />
+          <RefPoint1Name UID="132" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+            <RecalculateScript>return Delaire2010Fonctions.Parcourir("F1/F8 à F5","ProjENAtF8SurF5",2,new Point(0,0))</RecalculateScript>
+            <PointIsInCurve IsNull="True" />
+            <Style IsNull="True" />
+            <VisibleOnFacial>False</VisibleOnFacial>
+            <VisibleOnAxial>False</VisibleOnAxial>
+            <VisibleOnProfil>True</VisibleOnProfil>
+            <VisibleOnAxial_S>False</VisibleOnAxial_S>
+            <VisibleOnFacial_P>False</VisibleOnFacial_P>
+            <VisibleOnProfil_L>False</VisibleOnProfil_L>
+            <Name>ProjENAtF8SurF54mm</Name>
+            <LongName />
+          </RefPoint1Name>
+          <RefPoint2>
+            <X>1725,661</X>
+            <Y>237,0473</Y>
+          </RefPoint2>
+          <RefPoint1>
+            <X>1875,32</X>
+            <Y>577,4545</Y>
+          </RefPoint1>
+        </Delaire_BO.ModeleAnalyse.FormCourbe>
+        <Delaire_BO.ModeleAnalyse.FormCourbe UID="133" Type="Delaire_BO.ModeleAnalyse.FormCourbe,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <IsLocked>True</IsLocked>
+          <Libelle>Courbe 4</Libelle>
+          <Closed>False</Closed>
+          <ReadOnly>False</ReadOnly>
+          <SerializedfirstPoints />
+          <SerializedsecondPoints />
+          <SerializedPoints>1295,765;484,8079|1725,661;237,0473</SerializedPoints>
+          <RefPoint2Name Reference="121" />
+          <RefPoint1Name Reference="36" />
+          <RefPoint2>
+            <X>1295,765</X>
+            <Y>484,8079</Y>
+          </RefPoint2>
+          <RefPoint1>
+            <X>1725,661</X>
+            <Y>237,0473</Y>
+          </RefPoint1>
+        </Delaire_BO.ModeleAnalyse.FormCourbe>
+        <Delaire_BO.ModeleAnalyse.FormCourbe UID="134" Type="Delaire_BO.ModeleAnalyse.FormCourbe,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <IsLocked>True</IsLocked>
+          <Libelle>Courbe 4</Libelle>
+          <Closed>False</Closed>
+          <ReadOnly>False</ReadOnly>
+          <SerializedfirstPoints />
+          <SerializedsecondPoints />
+          <SerializedPoints>1295,765;484,8079|1418,416;697,6219</SerializedPoints>
+          <RefPoint2Name Reference="66" />
+          <RefPoint1Name Reference="121" />
+          <RefPoint2>
+            <X>1418,416</X>
+            <Y>697,6219</Y>
+          </RefPoint2>
+          <RefPoint1>
+            <X>1295,765</X>
+            <Y>484,8079</Y>
+          </RefPoint1>
+        </Delaire_BO.ModeleAnalyse.FormCourbe>
+        <Delaire_BO.ModeleAnalyse.FormCourbe UID="135" Type="Delaire_BO.ModeleAnalyse.FormCourbe,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <IsLocked>True</IsLocked>
+          <Libelle>Courbe 4</Libelle>
+          <Closed>False</Closed>
+          <ReadOnly>False</ReadOnly>
+          <SerializedfirstPoints />
+          <SerializedsecondPoints />
+          <SerializedPoints>1418,47;698,2618|1768,68;588,9814</SerializedPoints>
+          <RefPoint2Name UID="136" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+            <RecalculateScript>return Delaire2010Fonctions.IntersectionDePlan("F8","F1");</RecalculateScript>
+            <PointIsInCurve IsNull="True" />
+            <Style IsNull="True" />
+            <VisibleOnFacial>False</VisibleOnFacial>
+            <VisibleOnAxial>False</VisibleOnAxial>
+            <VisibleOnProfil>True</VisibleOnProfil>
+            <VisibleOnAxial_S>False</VisibleOnAxial_S>
+            <VisibleOnFacial_P>False</VisibleOnFacial_P>
+            <VisibleOnProfil_L>False</VisibleOnProfil_L>
+            <Name>PtF1F8</Name>
+            <LongName />
+          </RefPoint2Name>
+          <RefPoint1Name Reference="66" />
+          <RefPoint2>
+            <X>1768,474</X>
+            <Y>590,8569</Y>
+          </RefPoint2>
+          <RefPoint1>
+            <X>1418,416</X>
+            <Y>697,6219</Y>
+          </RefPoint1>
+        </Delaire_BO.ModeleAnalyse.FormCourbe>
+        <Delaire_BO.ModeleAnalyse.FormCourbe UID="137" Type="Delaire_BO.ModeleAnalyse.FormCourbe,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <IsLocked>True</IsLocked>
+          <Libelle>Courbe 5</Libelle>
+          <Closed>False</Closed>
+          <ReadOnly>False</ReadOnly>
+          <SerializedfirstPoints />
+          <SerializedsecondPoints />
+          <SerializedPoints>1768,116;590,1958|1872,065;578,3528</SerializedPoints>
+          <RefPoint2Name Reference="132" />
+          <RefPoint1Name Reference="136" />
+          <RefPoint2>
+            <X>1875,32</X>
+            <Y>577,4545</Y>
+          </RefPoint2>
+          <RefPoint1>
+            <X>1768,474</X>
+            <Y>590,8569</Y>
+          </RefPoint1>
+        </Delaire_BO.ModeleAnalyse.FormCourbe>
+      </FormElements>
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <DiagShownNextTo IsNull="True" />
+      <format>0.00 mm²</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <Style UID="138" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Blue</SerializableForeColor>
+        <SerializableForeColor2>Blue</SerializableForeColor2>
+        <Width>1</Width>
+        <OutlineWidth>3</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>CourbeMandInfTheo</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Forme>
+    <Delaire_BO.ModeleAnalyse.Forme UID="139" Type="Delaire_BO.ModeleAnalyse.Forme,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <Exportable>False</Exportable>
+      <ReadOnly>False</ReadOnly>
+      <ShownAsRegion>True</ShownAsRegion>
+      <FormElements>
+        <Delaire_BO.ModeleAnalyse.FormCourbe UID="140" Type="Delaire_BO.ModeleAnalyse.FormCourbe,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <IsLocked>True</IsLocked>
+          <Libelle>Courbe 1</Libelle>
+          <Closed>False</Closed>
+          <ReadOnly>False</ReadOnly>
+          <SerializedfirstPoints />
+          <SerializedsecondPoints />
+          <SerializedPoints>1418,416;697,6219|1398,777;888,8809</SerializedPoints>
+          <RefPoint2Name Reference="111" />
+          <RefPoint1Name Reference="66" />
+          <RefPoint2>
+            <X>1398,777</X>
+            <Y>887,6937</Y>
+          </RefPoint2>
+          <RefPoint1>
+            <X>1418,416</X>
+            <Y>697,6219</Y>
+          </RefPoint1>
+        </Delaire_BO.ModeleAnalyse.FormCourbe>
+        <Delaire_BO.ModeleAnalyse.FormCourbe UID="141" Type="Delaire_BO.ModeleAnalyse.FormCourbe,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <IsLocked>True</IsLocked>
+          <Libelle>Courbe 2</Libelle>
+          <Closed>False</Closed>
+          <ReadOnly>False</ReadOnly>
+          <SerializedfirstPoints />
+          <SerializedsecondPoints />
+          <SerializedPoints>1398,777;887,6937|1926,094;821,1635</SerializedPoints>
+          <RefPoint2Name Reference="40" />
+          <RefPoint1Name Reference="111" />
+          <RefPoint2>
+            <X>1926,095</X>
+            <Y>821,549</Y>
+          </RefPoint2>
+          <RefPoint1>
+            <X>1398,777</X>
+            <Y>887,6937</Y>
+          </RefPoint1>
+        </Delaire_BO.ModeleAnalyse.FormCourbe>
+        <Delaire_BO.ModeleAnalyse.FormCourbe UID="142" Type="Delaire_BO.ModeleAnalyse.FormCourbe,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <IsLocked>False</IsLocked>
+          <Libelle>Courbe 3</Libelle>
+          <Closed>False</Closed>
+          <ReadOnly>False</ReadOnly>
+          <SerializedfirstPoints>1921,353;814,7115|1907,188;795,944|1893,883;765,5284|1886,62;710,9046|1892,765;661,0533|1900,724;611,6437</SerializedfirstPoints>
+          <SerializedsecondPoints>1916,686;808,3168|1902,464;790,1024|1890,021;746,8569|1887,093;693,5|1898,081;646,0245|1898,046;592,3525</SerializedsecondPoints>
+          <SerializedPoints>1926,134;821,1805|1911,995;802,1672|1898,177;777,7842|1888,323;728,8504|1889,928;677,2763|1899,404;628,8348|1895,489;573,0743</SerializedPoints>
+          <RefPoint2Name UID="143" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+            <RecalculateScript>return Delaire2010Fonctions.Projection("F1/F8 à F5","ProjNSurF4")</RecalculateScript>
+            <PointIsInCurve IsNull="True" />
+            <Style IsNull="True" />
+            <VisibleOnFacial>False</VisibleOnFacial>
+            <VisibleOnAxial>False</VisibleOnAxial>
+            <VisibleOnProfil>True</VisibleOnProfil>
+            <VisibleOnAxial_S>False</VisibleOnAxial_S>
+            <VisibleOnFacial_P>False</VisibleOnFacial_P>
+            <VisibleOnProfil_L>False</VisibleOnProfil_L>
+            <Name>ProjENAtF8SurF5</Name>
+            <LongName />
+          </RefPoint2Name>
+          <RefPoint1Name Reference="40" />
+          <RefPoint2>
+            <X>1895,165</X>
+            <Y>574,9653</Y>
+          </RefPoint2>
+          <RefPoint1>
+            <X>1926,095</X>
+            <Y>821,5491</Y>
+          </RefPoint1>
+        </Delaire_BO.ModeleAnalyse.FormCourbe>
+        <Delaire_BO.ModeleAnalyse.FormCourbe UID="144" Type="Delaire_BO.ModeleAnalyse.FormCourbe,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <IsLocked>True</IsLocked>
+          <Libelle>Courbe 4</Libelle>
+          <Closed>False</Closed>
+          <ReadOnly>False</ReadOnly>
+          <SerializedfirstPoints />
+          <SerializedsecondPoints />
+          <SerializedPoints>1768,345;590,8183|1417,066;698,3683</SerializedPoints>
+          <RefPoint2Name Reference="136" />
+          <RefPoint1Name Reference="66" />
+          <RefPoint2>
+            <X>1768,474</X>
+            <Y>590,8569</Y>
+          </RefPoint2>
+          <RefPoint1>
+            <X>1418,416</X>
+            <Y>697,6219</Y>
+          </RefPoint1>
+        </Delaire_BO.ModeleAnalyse.FormCourbe>
+        <Delaire_BO.ModeleAnalyse.FormCourbe UID="145" Type="Delaire_BO.ModeleAnalyse.FormCourbe,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <IsLocked>True</IsLocked>
+          <Libelle>Courbe 5</Libelle>
+          <Closed>False</Closed>
+          <ReadOnly>False</ReadOnly>
+          <SerializedfirstPoints />
+          <SerializedsecondPoints />
+          <SerializedPoints>1768,474;590,8569|1895,545;574,9167</SerializedPoints>
+          <RefPoint2Name Reference="143" />
+          <RefPoint1Name Reference="136" />
+          <RefPoint2>
+            <X>1895,165</X>
+            <Y>574,9653</Y>
+          </RefPoint2>
+          <RefPoint1>
+            <X>1768,474</X>
+            <Y>590,8569</Y>
+          </RefPoint1>
+        </Delaire_BO.ModeleAnalyse.FormCourbe>
+      </FormElements>
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <DiagShownNextTo IsNull="True" />
+      <format>0.00 mm²</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <Style UID="146" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Red</SerializableForeColor>
+        <SerializableForeColor2>Red</SerializableForeColor2>
+        <Width>1</Width>
+        <OutlineWidth>3</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>AlveoloDentaireTheoForm</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Forme>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="136" />
+    <Delaire_BO.ModeleAnalyse.PlanParallele UID="147" Type="Delaire_BO.ModeleAnalyse.PlanParallele,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point Reference="136" />
+      <PlanOuSegmentOrigin Reference="7" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="136" />
+      <Limit2 Reference="39" />
+      <Style UID="148" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>F1/F8 à F5</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanParallele>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="149" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>return Delaire2010Fonctions.IntersectionDePlan("F3","C2")</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Cpth</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.DiagnosticByScript UID="150" Type="Delaire_BO.ModeleAnalyse.DiagnosticByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <RecalculateScript>
+float ChampCranioFacial  = Delaire2010Fonctions.DistanceEnPxl("M","Cpth");
+float ChampMaxilaire = Delaire2010Fonctions.DistanceEnPxl("Pts","Cpth");
+return ChampMaxilaire/ChampCranioFacial;</RecalculateScript>
+      <Exportable>False</Exportable>
+      <format>P</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <DiagShownNextTo UID="151" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <RecalculateScript>return Delaire2010Fonctions.CentreDe("Pts","Cpth");</RecalculateScript>
+        <PointIsInCurve IsNull="True" />
+        <Style IsNull="True" />
+        <VisibleOnFacial>False</VisibleOnFacial>
+        <VisibleOnAxial>False</VisibleOnAxial>
+        <VisibleOnProfil>True</VisibleOnProfil>
+        <VisibleOnAxial_S>False</VisibleOnAxial_S>
+        <VisibleOnFacial_P>False</VisibleOnFacial_P>
+        <VisibleOnProfil_L>False</VisibleOnProfil_L>
+        <Name>MilieuPtsCpth</Name>
+        <LongName />
+      </DiagShownNextTo>
+      <DiagShownNextToOffSetX>-10</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <Style UID="152" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>#8080FF</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>Black</SerializableForeColor2>
+        <Width>0,2</Width>
+        <OutlineWidth>4,5</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Mandibular CranioFacial Field</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.DiagnosticByScript>
+    <Delaire_BO.ModeleAnalyse.DiagnosticByScript UID="153" Type="Delaire_BO.ModeleAnalyse.DiagnosticByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <RecalculateScript>
+float ChampCranioFacial  = Delaire2010Fonctions.DistanceEnPxl("M","Cpth");
+float ChampMandibulaire = Delaire2010Fonctions.DistanceEnPxl("Pts","M");
+return ChampMandibulaire/ChampCranioFacial;</RecalculateScript>
+      <Exportable>False</Exportable>
+      <format>P</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <DiagShownNextTo UID="154" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <RecalculateScript>return Delaire2010Fonctions.CentreDe("M","Pts");</RecalculateScript>
+        <PointIsInCurve IsNull="True" />
+        <Style IsNull="True" />
+        <VisibleOnFacial>False</VisibleOnFacial>
+        <VisibleOnAxial>False</VisibleOnAxial>
+        <VisibleOnProfil>True</VisibleOnProfil>
+        <VisibleOnAxial_S>False</VisibleOnAxial_S>
+        <VisibleOnFacial_P>False</VisibleOnFacial_P>
+        <VisibleOnProfil_L>False</VisibleOnProfil_L>
+        <Name>MilieuMPts</Name>
+        <LongName />
+      </DiagShownNextTo>
+      <DiagShownNextToOffSetX>-15</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <Style UID="155" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>#FF8080</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>Black</SerializableForeColor2>
+        <Width>0,2</Width>
+        <OutlineWidth>4,5</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Maxillary CranioFacial Field</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.DiagnosticByScript>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="154" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="151" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="40" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="61" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts UID="156" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point1 Reference="1" />
+      <point2 Reference="59" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="1" />
+      <Limit2 Reference="59" />
+      <Style UID="157" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>NENAt</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanPar2Pts>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="143" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts UID="158" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point1 Reference="59" />
+      <point2 Reference="143" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="59" />
+      <Limit2 Reference="143" />
+      <Style UID="159" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>ENAthF8</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanPar2Pts>
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts UID="160" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point1 Reference="132" />
+      <point2 Reference="127" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="147" />
+      <Limit2 Reference="127" />
+      <Style UID="161" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>F8MeTh</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanPar2Pts>
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts UID="162" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point1 Reference="42" />
+      <point2 Reference="36" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="36" />
+      <Limit2 Reference="127" />
+      <Style UID="163" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>PointeMe</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanPar2Pts>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="132" />
+    <Delaire_BO.ModeleAnalyse.PointSaisie UID="164" Type="Delaire_BO.ModeleAnalyse.PointSaisie,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <SaisieOptionel>False</SaisieOptionel>
+      <HelpFile>Point Option</HelpFile>
+      <HelpObjets />
+      <UniversalName />
+      <PointIsOnThePlan IsNull="True" />
+      <PointIsOnTheCircle IsNull="True" />
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>Pt opt</Name>
+      <LongName>Point Option</LongName>
+    </Delaire_BO.ModeleAnalyse.PointSaisie>
+    <Delaire_BO.ModeleAnalyse.PlanParallele UID="165" Type="Delaire_BO.ModeleAnalyse.PlanParallele,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point Reference="164" />
+      <PlanOuSegmentOrigin Reference="7" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="164" />
+      <Limit2 Reference="60" />
+      <Style UID="166" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Lime</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>ChoixOption</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanParallele>
+    <Delaire_BO.ModeleAnalyse.Cercle UID="167" Type="Delaire_BO.ModeleAnalyse.Cercle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <Distance Reference="74" />
+      <PointCentral Reference="164" />
+      <Style UID="168" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>White</SerializableBackColor>
+        <SerializableForeColor>Lime</SerializableForeColor>
+        <SerializableForeColor2>White</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>ChoixOption</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.Cercle>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="112" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="169" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>var pt = Delaire2010Fonctions.AngleAvec("FM","Cla",21);
+
+return pt;
+</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>PtPourC2Ideal</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts UID="170" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point1 Reference="2" />
+      <point2 Reference="169" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="2" />
+      <Limit2 UID="171" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <point1 Reference="4" />
+        <point2 UID="172" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <RecalculateScript>var pt = Delaire2010Fonctions.AngleAvec("Clp","FM",-117.5);
+return pt;</RecalculateScript>
+          <PointIsInCurve IsNull="True" />
+          <Style IsNull="True" />
+          <VisibleOnFacial>False</VisibleOnFacial>
+          <VisibleOnAxial>False</VisibleOnAxial>
+          <VisibleOnProfil>True</VisibleOnProfil>
+          <VisibleOnAxial_S>False</VisibleOnAxial_S>
+          <VisibleOnFacial_P>False</VisibleOnFacial_P>
+          <VisibleOnProfil_L>False</VisibleOnProfil_L>
+          <Name>PtPourC4Ideal</Name>
+          <LongName />
+        </point2>
+        <borderlimit>Unknown</borderlimit>
+        <Limit1 Reference="4" />
+        <Limit2 Reference="170" />
+        <Style UID="173" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <SerializableBackColor>Lime</SerializableBackColor>
+          <SerializableForeColor>Lime</SerializableForeColor>
+          <SerializableForeColor2>Lime</SerializableForeColor2>
+          <Width>2</Width>
+          <OutlineWidth>2</OutlineWidth>
+        </Style>
+        <VisibleOnFacial>False</VisibleOnFacial>
+        <VisibleOnAxial>False</VisibleOnAxial>
+        <VisibleOnProfil>True</VisibleOnProfil>
+        <VisibleOnAxial_S>False</VisibleOnAxial_S>
+        <VisibleOnFacial_P>False</VisibleOnFacial_P>
+        <VisibleOnProfil_L>False</VisibleOnProfil_L>
+        <Name>C4Ideal</Name>
+        <LongName />
+      </Limit2>
+      <Style UID="174" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>Lime</SerializableBackColor>
+        <SerializableForeColor>Lime</SerializableForeColor>
+        <SerializableForeColor2>Lime</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>C2Ideal</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanPar2Pts>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="172" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="171" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript UID="175" Type="Delaire_BO.ModeleAnalyse.PointCtByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <RecalculateScript>PointF returnedPoint; 
+
+float angle = 90;
+
+
+if (patient.Sexe==Delaire_BO.Patient.SexeEnum.M)
+{
+	if (patient.AgeAnnee&lt;13) angle = 85;
+	if (patient.AgeAnnee==13) angle = 86;
+	if (patient.AgeAnnee==14) angle = 87;
+	if (patient.AgeAnnee==15) angle = 88;
+	if (patient.AgeAnnee==16) angle = 89;
+	if (patient.AgeAnnee&gt;16) angle = 90;
+
+}
+if (patient.Sexe==Delaire_BO.Patient.SexeEnum.F) angle = 85;
+
+
+
+
+returnedPoint = Delaire2010Fonctions.AngleAvec("FM", "Mp",angle); 
+return returnedPoint;</RecalculateScript>
+      <PointIsInCurve IsNull="True" />
+      <Style IsNull="True" />
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>PtPourF1Ideal</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PointCtByScript>
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts UID="176" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <point1 Reference="33" />
+      <point2 Reference="175" />
+      <borderlimit>Unknown</borderlimit>
+      <Limit1 Reference="33" />
+      <Limit2 Reference="36" />
+      <Style UID="177" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>Lime</SerializableBackColor>
+        <SerializableForeColor>Lime</SerializableForeColor>
+        <SerializableForeColor2>Lime</SerializableForeColor2>
+        <Width>2</Width>
+        <OutlineWidth>2</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>F1Ideal</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.PlanPar2Pts>
+    <Delaire_BO.ModeleAnalyse.DiagnosticByScript UID="178" Type="Delaire_BO.ModeleAnalyse.DiagnosticByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <RecalculateScript>return 21;</RecalculateScript>
+      <Exportable>False</Exportable>
+      <format>0°</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <DiagShownNextTo Reference="93" />
+      <DiagShownNextToOffSetX>65</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>0</DiagShownNextToOffSetY>
+      <Style UID="179" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>Lime</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>Black</SerializableForeColor2>
+        <Width>0,2</Width>
+        <OutlineWidth>4,5</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>AngleC1C2Ideal</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.DiagnosticByScript>
+    <Delaire_BO.ModeleAnalyse.DiagnosticByScript UID="180" Type="Delaire_BO.ModeleAnalyse.DiagnosticByScript,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <ExportLibelle />
+      <RecalculateScript>return (float)117.5;</RecalculateScript>
+      <Exportable>False</Exportable>
+      <format>##.##°</format>
+      <DiagSiNormal />
+      <DiagSiMax />
+      <DiagSiMin />
+      <Maximal>5000</Maximal>
+      <Minimal>-5000</Minimal>
+      <DiagShownNextTo Reference="4" />
+      <DiagShownNextToOffSetX>0</DiagShownNextToOffSetX>
+      <DiagShownNextToOffSetY>-20</DiagShownNextToOffSetY>
+      <Style UID="181" Type="Delaire_BO.ModeleAnalyse.baseStyle,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+        <SerializableBackColor>Lime</SerializableBackColor>
+        <SerializableForeColor>Black</SerializableForeColor>
+        <SerializableForeColor2>Black</SerializableForeColor2>
+        <Width>0,2</Width>
+        <OutlineWidth>4,5</OutlineWidth>
+      </Style>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <Name>AngleC1C4Ideal</Name>
+      <LongName />
+    </Delaire_BO.ModeleAnalyse.DiagnosticByScript>
+  </AllElements>
+  <AllElementForSuperpositions />
+  <DateDeCreation>
+    <Value>-8588469012175713308</Value>
+  </DateDeCreation>
+  <ObjetForRotation Reference="7" />
+  <options>
+    <Delaire_BO.ModeleAnalyse.OptionAnalyse UID="182" Type="Delaire_BO.ModeleAnalyse.OptionAnalyse,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <values>
+        <System.String Type="System.String,mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">Pti</System.String>
+        <System.String Type="System.String,mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">Pt Option</System.String>
+      </values>
+      <Name>F4 passing through</Name>
+    </Delaire_BO.ModeleAnalyse.OptionAnalyse>
+    <Delaire_BO.ModeleAnalyse.OptionAnalyse UID="183" Type="Delaire_BO.ModeleAnalyse.OptionAnalyse,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <values>
+        <System.String Type="System.String,mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">43:57%</System.String>
+        <System.String Type="System.String,mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">45:55%</System.String>
+        <System.String Type="System.String,mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">41:59%</System.String>
+      </values>
+      <Name>proportions</Name>
+    </Delaire_BO.ModeleAnalyse.OptionAnalyse>
+  </options>
+  <VuesSuperposition />
+  <Vues>
+    <Delaire_BO.ModeleAnalyse.VueAnalyse UID="184" Type="Delaire_BO.ModeleAnalyse.VueAnalyse,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <Categories />
+      <Checked>False</Checked>
+      <DisplayOrder>1</DisplayOrder>
+      <Name>Architectural</Name>
+      <PointSynchro2 IsNull="True" />
+      <PointSynchro1 IsNull="True" />
+      <ObjVisibles>
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="17" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="24" />
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="7" />
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="22" />
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="8" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="3" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="4" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="28" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="29" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="2" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="16" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="1" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="9" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="19" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="18" />
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="34" />
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts UID="185" Type="Delaire_BO.ModeleAnalyse.PlanPar2Pts,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+          <point1 Reference="18" />
+          <point2 Reference="19" />
+          <borderlimit>Unknown</borderlimit>
+          <Limit1 Reference="46" />
+          <Limit2 Reference="49" />
+          <Style IsNull="True" />
+          <VisibleOnFacial>False</VisibleOnFacial>
+          <VisibleOnAxial>False</VisibleOnAxial>
+          <VisibleOnProfil>True</VisibleOnProfil>
+          <VisibleOnAxial_S>False</VisibleOnAxial_S>
+          <VisibleOnFacial_P>False</VisibleOnFacial_P>
+          <VisibleOnProfil_L>False</VisibleOnProfil_L>
+          <Name>F6</Name>
+          <LongName />
+        </Delaire_BO.ModeleAnalyse.PlanPar2Pts>
+        <Delaire_BO.ModeleAnalyse.PlanParallele Reference="46" />
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="47" />
+        <Delaire_BO.ModeleAnalyse.PlanParallele Reference="45" />
+        <Delaire_BO.ModeleAnalyse.PlanPerpendiculaire Reference="39" />
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="60" />
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="52" />
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="41" />
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="68" />
+        <Delaire_BO.ModeleAnalyse.PlanParallele Reference="147" />
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="160" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="164" />
+      </ObjVisibles>
+      <OptionsVisibles>
+        <Delaire_BO.ModeleAnalyse.OptionAnalyse Reference="182" />
+        <Delaire_BO.ModeleAnalyse.OptionAnalyse Reference="183" />
+      </OptionsVisibles>
+      <SuperpositionsVisibles />
+    </Delaire_BO.ModeleAnalyse.VueAnalyse>
+    <Delaire_BO.ModeleAnalyse.VueAnalyse UID="186" Type="Delaire_BO.ModeleAnalyse.VueAnalyse,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <Categories />
+      <Checked>False</Checked>
+      <DisplayOrder>3</DisplayOrder>
+      <Name>Top 12</Name>
+      <PointSynchro2 IsNull="True" />
+      <PointSynchro1 IsNull="True" />
+      <ObjVisibles>
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="24" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="17" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="3" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="4" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="28" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="29" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="2" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="16" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="1" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="9" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="18" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="19" />
+        <Delaire_BO.ModeleAnalyse.Path Reference="106" />
+        <Delaire_BO.ModeleAnalyse.Polygon Reference="104" />
+        <Delaire_BO.ModeleAnalyse.DiagnosticByScript Reference="94" />
+        <Delaire_BO.ModeleAnalyse.DiagnosticByScript Reference="96" />
+        <Delaire_BO.ModeleAnalyse.DiagnosticByScript Reference="98" />
+        <Delaire_BO.ModeleAnalyse.Path Reference="110" />
+        <Delaire_BO.ModeleAnalyse.Polygon Reference="114" />
+        <Delaire_BO.ModeleAnalyse.Path Reference="116" />
+        <Delaire_BO.ModeleAnalyse.Polygon Reference="118" />
+        <Delaire_BO.ModeleAnalyse.Path Reference="120" />
+        <Delaire_BO.ModeleAnalyse.Polygon Reference="123" />
+        <Delaire_BO.ModeleAnalyse.Forme Reference="130" />
+        <Delaire_BO.ModeleAnalyse.Forme Reference="139" />
+        <Delaire_BO.ModeleAnalyse.DiagnosticByScript Reference="153" />
+        <Delaire_BO.ModeleAnalyse.DiagnosticByScript Reference="150" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="164" />
+      </ObjVisibles>
+      <OptionsVisibles>
+        <Delaire_BO.ModeleAnalyse.OptionAnalyse Reference="182" />
+        <Delaire_BO.ModeleAnalyse.OptionAnalyse Reference="183" />
+      </OptionsVisibles>
+      <SuperpositionsVisibles />
+    </Delaire_BO.ModeleAnalyse.VueAnalyse>
+    <Delaire_BO.ModeleAnalyse.VueAnalyse UID="187" Type="Delaire_BO.ModeleAnalyse.VueAnalyse,Delaire_BO, Version=1.0.6439.17304, Culture=neutral, PublicKeyToken=null">
+      <VisibleOnFacial_P>False</VisibleOnFacial_P>
+      <VisibleOnAxial_S>False</VisibleOnAxial_S>
+      <VisibleOnProfil_L>False</VisibleOnProfil_L>
+      <VisibleOnFacial>False</VisibleOnFacial>
+      <VisibleOnAxial>False</VisibleOnAxial>
+      <VisibleOnProfil>True</VisibleOnProfil>
+      <Categories />
+      <Checked>False</Checked>
+      <DisplayOrder>0</DisplayOrder>
+      <Name>Optimal base</Name>
+      <PointSynchro2 IsNull="True" />
+      <PointSynchro1 IsNull="True" />
+      <ObjVisibles>
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="170" />
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="171" />
+        <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="176" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="1" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="2" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="3" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="4" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="16" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="17" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="9" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="18" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="19" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="24" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="28" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="29" />
+        <Delaire_BO.ModeleAnalyse.PointSaisie Reference="164" />
+        <Delaire_BO.ModeleAnalyse.DiagnosticByScript Reference="178" />
+        <Delaire_BO.ModeleAnalyse.DiagnosticByScript Reference="180" />
+      </ObjVisibles>
+      <OptionsVisibles />
+      <SuperpositionsVisibles />
+    </Delaire_BO.ModeleAnalyse.VueAnalyse>
+  </Vues>
+  <VuesChir />
+  <VuesPolyChir />
+  <typeRadio>Profil_CranioFacial</typeRadio>
+  <Auteur>Delaire 2015 Software</Auteur>
+  <Diags>
+    <Delaire_BO.ModeleAnalyse.AngleEntre4Points Reference="63" />
+    <Delaire_BO.ModeleAnalyse.AngleEntre4Points Reference="65" />
+    <Delaire_BO.ModeleAnalyse.DistanceEntre2Pts Reference="74" />
+    <Delaire_BO.ModeleAnalyse.DiagnosticByScript Reference="94" />
+    <Delaire_BO.ModeleAnalyse.DiagnosticByScript Reference="96" />
+    <Delaire_BO.ModeleAnalyse.DiagnosticByScript Reference="98" />
+    <Delaire_BO.ModeleAnalyse.DiagnosticByScript Reference="150" />
+    <Delaire_BO.ModeleAnalyse.DiagnosticByScript Reference="153" />
+    <Delaire_BO.ModeleAnalyse.DiagnosticByScript Reference="178" />
+    <Delaire_BO.ModeleAnalyse.DiagnosticByScript Reference="180" />
+  </Diags>
+  <ptSaisies>
+    <Delaire_BO.ModeleAnalyse.PointSaisie Reference="1" />
+    <Delaire_BO.ModeleAnalyse.PointSaisie Reference="2" />
+    <Delaire_BO.ModeleAnalyse.PointSaisie Reference="3" />
+    <Delaire_BO.ModeleAnalyse.PointSaisie Reference="4" />
+    <Delaire_BO.ModeleAnalyse.PointSaisie Reference="16" />
+    <Delaire_BO.ModeleAnalyse.PointSaisie Reference="17" />
+    <Delaire_BO.ModeleAnalyse.PointSaisie Reference="9" />
+    <Delaire_BO.ModeleAnalyse.PointSaisie Reference="18" />
+    <Delaire_BO.ModeleAnalyse.PointSaisie Reference="19" />
+    <Delaire_BO.ModeleAnalyse.PointSaisie Reference="24" />
+    <Delaire_BO.ModeleAnalyse.PointSaisie Reference="28" />
+    <Delaire_BO.ModeleAnalyse.PointSaisie Reference="29" />
+    <Delaire_BO.ModeleAnalyse.PointSaisie Reference="164" />
+  </ptSaisies>
+  <Segmts>
+    <Delaire_BO.ModeleAnalyse.Segment Reference="5" />
+    <Delaire_BO.ModeleAnalyse.SegmentParalleleMesure Reference="10" />
+    <Delaire_BO.ModeleAnalyse.Segment Reference="12" />
+    <Delaire_BO.ModeleAnalyse.Segment Reference="26" />
+    <Delaire_BO.ModeleAnalyse.SegmentParallele Reference="25" />
+    <Delaire_BO.ModeleAnalyse.Segment Reference="91" />
+    <Delaire_BO.ModeleAnalyse.Segment Reference="128" />
+  </Segmts>
+  <ptConstruits>
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="30" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="31" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="32" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="33" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="35" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="36" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="38" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="57" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="58" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="49" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="59" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="64" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="53" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="42" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="66" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="67" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="71" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="93" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="101" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="102" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="103" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="111" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="125" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="126" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="121" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="99" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="127" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="136" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="149" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="154" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="151" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="40" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="61" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="143" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="132" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="112" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="169" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="172" />
+    <Delaire_BO.ModeleAnalyse.PointCtByScript Reference="175" />
+  </ptConstruits>
+  <Pls>
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="7" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="22" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="8" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="34" />
+    <Delaire_BO.ModeleAnalyse.PlanPerpendiculaire Reference="39" />
+    <Delaire_BO.ModeleAnalyse.PlanParallele Reference="45" />
+    <Delaire_BO.ModeleAnalyse.PlanParallele Reference="46" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="60" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="47" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="52" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="41" />
+    <Delaire_BO.ModeleAnalyse.PlanParallele Reference="48" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="68" />
+    <Delaire_BO.ModeleAnalyse.PlanParallele Reference="70" />
+    <Delaire_BO.ModeleAnalyse.PlanPerpendiculaire Reference="72" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="20" />
+    <Delaire_BO.ModeleAnalyse.PlanParallele Reference="84" />
+    <Delaire_BO.ModeleAnalyse.PlanParallele Reference="86" />
+    <Delaire_BO.ModeleAnalyse.PlanParallele Reference="88" />
+    <Delaire_BO.ModeleAnalyse.PlanParallele Reference="89" />
+    <Delaire_BO.ModeleAnalyse.PlanParallele Reference="108" />
+    <Delaire_BO.ModeleAnalyse.PlanParallele Reference="147" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="156" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="158" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="160" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="162" />
+    <Delaire_BO.ModeleAnalyse.PlanParallele Reference="165" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="170" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="171" />
+    <Delaire_BO.ModeleAnalyse.PlanPar2Pts Reference="176" />
+  </Pls>
+  <Crcles>
+    <Delaire_BO.ModeleAnalyse.Cercle Reference="75" />
+    <Delaire_BO.ModeleAnalyse.Cercle Reference="77" />
+    <Delaire_BO.ModeleAnalyse.Cercle Reference="79" />
+    <Delaire_BO.ModeleAnalyse.Cercle Reference="81" />
+    <Delaire_BO.ModeleAnalyse.Cercle Reference="83" />
+    <Delaire_BO.ModeleAnalyse.Cercle Reference="167" />
+  </Crcles>
+  <serPaths>
+    <Delaire_BO.ModeleAnalyse.Polygon Reference="104" />
+    <Delaire_BO.ModeleAnalyse.Path Reference="106" />
+    <Delaire_BO.ModeleAnalyse.Path Reference="110" />
+    <Delaire_BO.ModeleAnalyse.Polygon Reference="114" />
+    <Delaire_BO.ModeleAnalyse.Path Reference="116" />
+    <Delaire_BO.ModeleAnalyse.Polygon Reference="118" />
+    <Delaire_BO.ModeleAnalyse.Path Reference="120" />
+    <Delaire_BO.ModeleAnalyse.Polygon Reference="123" />
+  </serPaths>
+  <DateCreation>
+    <Value>-8588469012175713308</Value>
+  </DateCreation>
+  <Name>Top 12</Name>
+</Delaire.CreateModel.FrmCreateModel>

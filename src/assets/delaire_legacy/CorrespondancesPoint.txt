@@ -1,0 +1,9 @@
+﻿PTi = Pti
+PTs = Pts
+GO = Go
+NP = Np
+Sy.p = Syp
+ocl.p = oclps
+ocl.a = oclas
+Hy = Hys
+

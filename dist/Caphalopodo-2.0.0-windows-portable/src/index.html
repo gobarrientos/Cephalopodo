@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caphalopodo — Delaire Evolution NextGen (Rust Standalone)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Bar -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-badge">CP</div>
+      <div>
+        <div class="brand-title">Caphalopodo · Delaire Evolution NextGen</div>
+        <div class="brand-subtitle">Rust + Tauri v2 Standalone · DICOM · 17 Análisis Cefalométricos · IA (ChatGPT / Claude / Gemini)</div>
+      </div>
+    </div>
+
+    <div class="topbar-controls">
+      <label class="btn primary" for="fileInput" title="Cargar archivo DICOM/DCM, JPEG, PNG, BMP o PDF">
+        📂 Cargar DICOM / Imagen / PDF
+      </label>
+      <input id="fileInput" type="file" accept=".dcm,.dicom,.jpg,.jpeg,.png,.bmp,.pdf" style="display:none" />
+
+      <select id="presetSampleSelect" class="btn" title="Cargar radiografía de muestra de Delaire Evolution">
+        <option value="delaire1">🩻 Muestra 1: Telerradiografía Lateral (Delaire Evolution)</option>
+        <option value="delaire2">🩻 Muestra 2: Telerradiografía Lateral Caso II (Delaire)</option>
+        <option value="frontal_pa">🩻 Muestra 3: Telerradiografía Frontal PA (MSE / Delaire Frontal)</option>
+        <option value="opg">🩻 Muestra 4: Ortopantomografía Panorámica (OPG)</option>
+      </select>
+
+      <button id="btnAutoAiLandmarks" class="btn primary" title="Detectar puntos cefalométricos con IA (CEPHMark-Net / Aariz / Anatomic-Landmark-Detection)">
+        🤖 Auto-Trazado IA (29 Puntos)
+      </button>
+
+      <button id="btnExportReport" class="btn" title="Exportar informe clínico y trazado cefalométrico">
+        📄 Exportar Informe
+      </button>
+
+      <button id="btnThemeToggle" class="btn" title="Alternar modo Oscuro / Claro">
+        🌗 Modo Claro / Oscuro
+      </button>
+    </div>
+  </header>
+
+  <!-- Main 3-Column Workstation -->
+  <main class="workspace">
+    <!-- Left Column: Patient Demographics (DICOM) + Landmarks + AI Detector -->
+    <aside class="sidebar-left">
+      <section class="panel-card">
+        <div class="panel-header">
+          <span>👤 Datos del Paciente (DICOM / Manual)</span>
+          <span id="fileFormatBadge" class="badge normal">LISTO</span>
+        </div>
+        <div class="form-grid">
+          <div class="form-field">
+            <label for="inpFirstName">Nombre</label>
+            <input id="inpFirstName" type="text" value="Camila" />
+          </div>
+          <div class="form-field">
+            <label for="inpLastName">Apellido</label>
+            <input id="inpLastName" type="text" value="Valdés" />
+          </div>
+          <div class="form-field">
+            <label for="inpAge">Edad (años)</label>
+            <input id="inpAge" type="number" step="0.5" min="1" max="100" value="13.5" />
+          </div>
+          <div class="form-field">
+            <label for="inpSex">Género / Sexo</label>
+            <select id="inpSex">
+              <option value="F">Femenino (F)</option>
+              <option value="M">Masculino (M)</option>
+              <option value="O">Otro / No especificado</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="inpEthnicity">Raza / Etnia</label>
+            <select id="inpEthnicity">
+              <option value="Hispanic/Latin">Hispano / Latinoamericano</option>
+              <option value="Caucasian">Caucásico / Europeo</option>
+              <option value="Indigenous/Andean">Andino / Originario</option>
+              <option value="Asian">Asiático</option>
+              <option value="Afro-descendant">Afrodescendiente</option>
+              <option value="Mediterranean">Mediterráneo</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="inpCountry">País</label>
+            <input id="inpCountry" type="text" value="Chile" />
+          </div>
+          <div class="form-field">
+            <label for="inpModality">Proyección Radiográfica</label>
+            <select id="inpModality">
+              <option value="Lateral">Telerradiografía Lateral</option>
+              <option value="Frontal">Telerradiografía Frontal PA</option>
+              <option value="OPG">Ortopantomografía (OPG)</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="inpScale">Escala (mm/píxel)</label>
+            <input id="inpScale" type="number" step="0.005" min="0.01" max="2.0" value="0.18" />
+          </div>
+        </div>
+        <div id="dicomTagsContainer" class="dicom-badge-list">
+          <span class="dicom-chip">0010,0010 Valdés^Camila</span>
+          <span class="dicom-chip">0018,1164 0.18 mm/px</span>
+        </div>
+      </section>
+
+      <!-- AI Landmark Detection Engine Selector -->
+      <section class="panel-card">
+        <div class="panel-header">
+          <span>🧠 Motor IA de Reconocimiento Anatómico</span>
+        </div>
+        <div class="form-grid">
+          <div class="form-field full">
+            <label for="selAiLandmarkModel">Arquitectura de Detección Guiada por IA</label>
+            <select id="selAiLandmarkModel">
+              <option value="cephmark_net">CEPHMark-Net + Aariz Dataset (29 Puntos + CVM)</option>
+              <option value="anatomic_landmark">Anatomic-Landmark-Detection (HRNet IEEE-ISBI)</option>
+              <option value="cepha_generation">cepha-generation + CEPHOSS Prior</option>
+              <option value="delaire_xml">Delaire Evolution XML (Delaire_CF / Top 12 / Frontale)</option>
+            </select>
+          </div>
+        </div>
+        <div style="font-size:11px; color:var(--text-secondary);">
+          Todos los puntos anatómicos pueden arrastrarse directamente en el visor para corrección fina en tiempo real.
+        </div>
+      </section>
+
+      <!-- Interactive Landmarks List -->
+      <section class="panel-card" style="flex:1; min-height:220px;">
+        <div class="panel-header">
+          <span>📍 Puntos Cefalométricos (<span id="landmarkCountLabel">0</span>)</span>
+          <button id="btnResetLandmarks" class="btn" style="padding:2px 7px; font-size:10.5px;">Restablecer</button>
+        </div>
+        <input id="inpFilterLandmark" type="text" placeholder="Filtrar punto (ej. N, S, Go, Cla, H, J.D)..." style="background:var(--bg-input);color:var(--text-primary);border:1px solid var(--border-color);border-radius:6px;padding:5px 8px;font-size:11.5px;" />
+        <div id="landmarkListContainer" class="landmark-list"></div>
+      </section>
+    </aside>
+
+    <!-- Center Column: Medical Image Viewer & Interactive Tracer -->
+    <section class="viewer-stage">
+      <div class="viewer-toolbar">
+        <div class="toolbar-group">
+          <button id="toolMovePt" class="btn active" title="Mover y corregir puntos cefalométricos">🎯 Mover Puntos</button>
+          <button id="toolMeasureDist" class="btn" title="Medición lineal simple en milímetros (2 puntos)">📏 Medir Distancia</button>
+          <button id="toolMeasureAngle" class="btn" title="Medición angular simple en grados (3 puntos)">📐 Medir Ángulo</button>
+          <button id="toolCalibrate" class="btn" title="Calibrar regla radiográfica (definir 2 puntos = 10 mm)">⚖️ Calibrar 10 mm</button>
+          <button id="btnClearSimpleMeas" class="btn" title="Borrar mediciones simples">🗑️ Limpiar Medidas</button>
+        </div>
+
+        <div class="toolbar-group">
+          <div class="slider-mini">
+            <span>Brillo</span>
+            <input id="rngBrightness" type="range" min="50" max="180" value="100" />
+          </div>
+          <div class="slider-mini">
+            <span>Contraste</span>
+            <input id="rngContrast" type="range" min="50" max="220" value="110" />
+          </div>
+          <button id="btnInvertImg" class="btn" title="Invertir negativo radiográfico">🔄 Invertir</button>
+          <button id="btnTogglePlanes" class="btn active" title="Mostrar/Ocultar planos y trazados">📈 Planos</button>
+          <button id="btnToggleLabels" class="btn active" title="Mostrar/Ocultar nombres de puntos">🏷️ Etiquetas</button>
+          <button id="btnZoomFit" class="btn" title="Ajustar zoom">🔍 100%</button>
+        </div>
+      </div>
+
+      <div id="canvasWrapper" class="canvas-wrapper">
+        <canvas id="cephCanvas" width="900" height="760"></canvas>
+
+        <div class="canvas-hud">
+          <div id="hudActivePoint" class="hud-pill">
+            Arrastra cualquier punto anatómico para recalcular en vivo los 17 análisis cefalométricos.
+          </div>
+          <div id="hudCursorPos" class="hud-pill">
+            X: 0 px | Y: 0 px | Escala: 0.18 mm/px
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Right Column: 17 Cephalometric Analyses + Normative Table + Multi-LLM Interpretation -->
+    <aside class="sidebar-right">
+      <!-- Analysis Selector -->
+      <section class="panel-card">
+        <div class="panel-header">
+          <span>📊 Selección de Análisis Cefalométrico (1 – 17)</span>
+        </div>
+        <div class="form-grid">
+          <div class="form-field full">
+            <select id="selAnalysis" style="font-weight:700; font-size:12.5px; padding:7px;">
+              <!-- Populated dynamically with all 17 analyses -->
+            </select>
+          </div>
+        </div>
+        <div id="analysisDescBox" style="font-size:11.5px; color:var(--text-secondary); line-height:1.4;"></div>
+        <div id="analysisRefBox" style="font-size:10.5px; color:var(--accent); font-style:italic;"></div>
+      </section>
+
+      <!-- Measurements & Editable Parameters Table -->
+      <section class="panel-card">
+        <div class="panel-header">
+          <span>📐 Parámetros y Normas Clínicas (Editables)</span>
+          <button id="btnResetOverrides" class="btn" style="padding:2px 7px; font-size:10.5px;">Auto-Calcular</button>
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="metrics-table">
+            <thead>
+              <tr>
+                <th>Parámetro</th>
+                <th>Valor</th>
+                <th>Norma</th>
+                <th>Estado</th>
+                <th>Significado Clínico</th>
+              </tr>
+            </thead>
+            <tbody id="metricsTableBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Automated Literature Synthesis & Recommendations -->
+      <section class="panel-card">
+        <div class="panel-header">
+          <span>📚 Diagnóstico y Recomendaciones según Literatura</span>
+        </div>
+        <div class="interpretation-box">
+          <div id="summaryDiagnosisText" style="font-weight:700; color:var(--text-primary);"></div>
+          <ul id="recommendationsList" class="rec-list"></ul>
+        </div>
+      </section>
+
+      <!-- Multi-Provider AI (ChatGPT, Claude, Gemini) Clinical Assistant -->
+      <section class="panel-card">
+        <div class="panel-header">
+          <span>🤖 Consultor Clínico IA (ChatGPT / Claude / Gemini)</span>
+        </div>
+        <div class="form-grid">
+          <div class="form-field">
+            <label for="selLlmProvider">Proveedor IA</label>
+            <select id="selLlmProvider">
+              <option value="offline">Motor Local Basado en Literatura (Sin API Key)</option>
+              <option value="openai">OpenAI — ChatGPT (GPT-4o)</option>
+              <option value="anthropic">Anthropic — Claude 3.7 Sonnet</option>
+              <option value="gemini">Google — Gemini 2.5 Pro / Flash</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="inpLlmModel">Modelo</label>
+            <input id="inpLlmModel" type="text" value="gpt-4o / claude-3-7 / gemini-2.5" />
+          </div>
+          <div class="form-field full">
+            <label for="inpApiKey">API Key (Opcional — nunca se persiste fuera de tu sesión local)</label>
+            <input id="inpApiKey" type="password" placeholder="sk-... / AIza... (Dejar vacío para usar el motor clínico local)" />
+          </div>
+        </div>
+        <button id="btnRunAiInterpretation" class="btn primary" style="justify-content:center; width:100%;">
+          ✨ Generar Informe e Interpretación Clínica con IA
+        </button>
+        <div id="aiResponseContainer" class="interpretation-box" style="max-height:220px; overflow-y:auto; white-space:pre-wrap;"></div>
+      </section>
+    </aside>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
