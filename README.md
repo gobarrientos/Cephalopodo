@@ -1,16 +1,6 @@
-# Caphalopodo — Delaire Evolution NextGen (Rust + Tauri v2 Standalone)
+# Caphalopodo — basado en Analisis de Delaire (Rust + Tauri v2 Standalone)
 
-Reconstrucción modernizada y ampliada en **Rust (Tauri v2 Standalone + Motor Geométrico/DICOM/IA)** a partir de la ingeniería inversa estática de **Delaire Evolution** (`C:\Program Files (x86)\Delaire Evolution`).
-
-## Evidencia de Ingeniería Inversa (REA)
-
-| Ensamblado Original | REA Evidence ID | SHA-256 | Rol Reconstruido en Rust |
-| --- | --- | --- | --- |
-| `Delaire.exe` | `ev_e3a0cef3348dfba077a8f608c360662f31592003985f48ac735ecd1942da66e1` | `5196f66acff9440beb6a1e0f4e8bf67eaa6d5b96fd407cb3d5be941c8592f2d0` | Interfaz gráfica, visor radiográfico, calibración de escala e informes (`src-tauri/src/lib.rs`, `src/app.js`) |
-| `Delaire_BO.dll` | `ev_ee99aa4da3b641912e7068d4f736976cff35e5ac5035cdf81f6f7e352187b7e4` | `073437c08b72f21a6ccc2350c032b85ca44108c9a2e4d9cda6aee0910a366bbd` | Modelos de análisis, puntos anatómicos (`PointSaisie`), planos y diagnósticos (`src-tauri/src/landmarks.rs`, `src-tauri/src/analyses.rs`) |
-| `Delaire_BL.dll` | `ev_388fc817556939da315cfc46d03a8058532e607e7ee3d4e709af34f6525e2955` | `f1ecf36a7c0559ac5d92c6e259600db31e1a8385cbd8d29ad2423fb40805707a` | `DICOMHelper`, `ModelesMgmt`, `EchelleMgmt`, serialización XML (`src-tauri/src/dicom_loader.rs`, `src-tauri/src/delaire_xml.rs`) |
-| `Delaire_DAL.dll` | `ev_974add885e54f054fb678b6e5bade521612a27e11232426fa3690b52a5476812` | `80a7b963188058f970f36434f90bc47f22d8a977a8253f234f40a249a6b1ae22` | Persistencia y exportación de expedientes clínicos JSON |
-| `FonctionsForScriptedElements.dll` | `ev_5c48fd427c85205a47886befb03aa9b2399f9e7b4b618034cf8104da95ede72a` | `d07a21f8a60f78113ecf9ebd90836fa0b3d74133eb35d07f2e2046789d2ff635` | Motor geométrico 2D (`Angle`, `DistanceEnPxl`, `FromMM`, `ToMM`, `Projection`, `IntersectionDePlan`, `IntersectionDeCercles`, `Homotethie`, `Parcourir`, `Symetrie`, `CentreDe` en `src-tauri/src/geometry.rs`) |
+Reconstrucción modernizada y ampliada en **Rust (Tauri v2 Standalone + Motor Geométrico/DICOM/IA)** a partir de la ingeniería inversa estática.
 
 ## Características Principales
 
